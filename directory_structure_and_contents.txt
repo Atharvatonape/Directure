@@ -1,0 +1,3725 @@
+Directory Structure and File Contents:
+
+|-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0xda in position 1073: invalid continuation byte
+----------------------------------------
+
+|-- DistributedSessionNet
+    |-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0x85 in position 1062: invalid start byte
+----------------------------------------
+
+    |-- Session-Management.code-workspace
+
+----------------------------------------
+Content of Session-Management.code-workspace:
+
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
+----------------------------------------
+
+    |-- vercel.json
+
+----------------------------------------
+Content of vercel.json:
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "env": {
+    "FLASK_ENV": "production"
+  }
+}
+
+----------------------------------------
+
+    |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+faker
+gunicorn==20.0.4
+flask-cors
+APScheduler
+----------------------------------------
+
+    |-- central-app
+        |-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0xb8 in position 1077: invalid start byte
+----------------------------------------
+
+        |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+faker
+gunicorn==20.0.4
+flask-cors
+APScheduler
+waitress
+----------------------------------------
+
+        |-- key.pem
+
+----------------------------------------
+Content of key.pem:
+
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChR/719FPbDvF+
+P5V+ok+jP4fbM6BLSDip2juH4glZix+lEiJ/HcWmTOhkX4BYMwEZdVzfwLWNCA9R
+MiLxoe0zM0ibs8rROzhHWaj3LUd3LAFLdGY5dIaaHGMO8zDbCRZd8v3hUfstW06a
+/YDYVXqaBw28YC4/KfyGYiBL4GsYHpAgC5v3Rc7e4sUL6sODjTx6z7AGoUSjLX77
+WU3b0maDHhZamL0PUjbE+ooQLULvF3FsYmlNoP6jczZPvL52BPxSTpRa2eU37QbU
+Kf7NwXgiuB+kcWNyqh5pjj5UziGlrquTXHGt2aoLCJ/atMzplcXa/edVjdmUTuIO
+usJACpKdAgMBAAECggEAT5BgBGBLehcOJdUiX/2cwhFWaVo3qsvvQEPr+GYXbLhI
+nTusDv/WAOuR/eprO5e15CRU9AFyzyd5vvm36XKTvR2ApWd2F/BaHEDsLTyGNBFe
+diXvRErrGF4GtFpe8L+z7BczDhROkJqp1aZYCOFqgVAXg6YDSp/g9z6zZhtJWfT5
+ckBP4jT+ACI96tlR5hV0m2pS47i4VVdpwxtfJjxrn4ZDr3MZYWaG3xBpJcNpllqJ
+sQWXOibOphkiJwLq4umXWlJvoq+yvaupLAo9Kkt/dTgTXUNcfCucW2JGCbdhOL6w
+BabrS7hH8eL9oUsFCkkFDtRJPwO2x/bvucoKMDGz4QKBgQDMQsilNFRHgYCGif/J
+7qXctoWwZ0qnXHAW+2VUCJD61dAiXK10kJ6jNerEN8F3IKihrzSZr2vSNGWqDy5r
+uEwJqeTF1dLy/ncQyOpRn8QVaX9eBVKWtEEdiFDUXt2X+n6sIlmEJx+6EeZz4Iwj
+y+qqtrnX13XA+44Rndi5Eq3w9QKBgQDKIjbbJ6ecl5qGjbS+8egvJpGrtMCArPjx
+DM+bJMqmeCKnwDL/rRgmYSJpDUUbA1EcP0Ncsl/05aLVbBLBEr5CQlnH5CcK8yMR
+WxdxaN0O2W+r8GrnETeE4ep16MCuaF4NIxcENuhG2WX0W7RjfVmmW90wIOoN0JX+
+3/W6dCByCQKBgQDDPOpwDk6ocn4ZGvqlVziueL/cVz6iLdbuAKlf4zhAqfJhhdg9
+3KXlNvoJR4nihhLpSICsjWIv7+lk3VHvoJ79dai3+KPDo7rHDmP6VQ2lscsOYWQJ
+rI243rzz4SFJzSMbAVIy4PqQbd+qzuzkolrRhgqo5sclCM1IxWmLrPEZqQKBgE5f
+08tH5eqGsejIGzQKUg+uMb9VF2sNJn04jWrHajf/ztgiYuPV9s4yzYfUGF5v+8wr
+D3BqzWAEhg2gmOj53oGMfolOAoFxYsCBBGb51PTEBFOzpY+wkklY23Maa1N0rjsD
+xxHgRFHsS2bjA9+ro84oQmw95uKyZOZtajcAffAZAoGAQX5VOQYXO8+EGeyxEkNc
+UCHZxjvr22t2aq2eZKth0LgiVhrieJSmu39+GkTSag2bd2hsM0vWCBK8FKEP/Uab
+idWmmt/2JwcBrGsnUMbGXfNoSCQplrrcwWqmhYGYnBh1hqLg2ag1cmVXuYLgX6oW
+UUqXD8R4lHAXsZ1+MbLPfog=
+-----END PRIVATE KEY-----
+
+----------------------------------------
+
+        |-- cert.pem
+
+----------------------------------------
+Content of cert.pem:
+
+-----BEGIN CERTIFICATE-----
+MIIDPDCCAiQCCQCOCDXtP1qBATANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJV
+UzELMAkGA1UECAwCTlkxCzAJBgNVBAcMAk5ZMQswCQYDVQQKDAJOWTELMAkGA1UE
+CwwCTlkxHTAbBgkqhkiG9w0BCQEWDnRvbnlAZ21haWwuY29tMB4XDTI0MDkwMTE3
+MDczMVoXDTI1MDkwMTE3MDczMVowYDELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk5Z
+MQswCQYDVQQHDAJOWTELMAkGA1UECgwCTlkxCzAJBgNVBAsMAk5ZMR0wGwYJKoZI
+hvcNAQkBFg50b255QGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKFH/vX0U9sO8X4/lX6iT6M/h9szoEtIOKnaO4fiCVmLH6USIn8dxaZM
+6GRfgFgzARl1XN/AtY0ID1EyIvGh7TMzSJuzytE7OEdZqPctR3csAUt0Zjl0hpoc
+Yw7zMNsJFl3y/eFR+y1bTpr9gNhVepoHDbxgLj8p/IZiIEvgaxgekCALm/dFzt7i
+xQvqw4ONPHrPsAahRKMtfvtZTdvSZoMeFlqYvQ9SNsT6ihAtQu8XcWxiaU2g/qNz
+Nk+8vnYE/FJOlFrZ5TftBtQp/s3BeCK4H6RxY3KqHmmOPlTOIaWuq5Ncca3ZqgsI
+n9q0zOmVxdr951WN2ZRO4g66wkAKkp0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+Q/oPsIkrhgJHdeIGbR9TQSJqZXLG0TM0plPADMMuVe+PmyQNgmUADCmk/K2ETqpf
+r5vwFDeHRSL0LXFUKZVcdfD7lFyIh3IVe6PGsOq+DfoCxV4PqDZfBFItPJc28SR5
+PzTfdwfd1hIK99Sqongdqgy0zfnzz3ko3cWT15fQWEc0i78JaMh7YgwzMeNH/6SI
+pDWt1TCPOjHfUAKNGTpamUZt1Q1bm+Tr1glg5kGNcZF5be4HK4Ab+YCQ36Pdxu0E
+TrvEXCOIeEI/X+Kn5cN+/AstcrooywI0jP5Ul3lvW1mxVCW3Ju16IMtrFKQLVnXp
+M599gTcd+cofSW800sEFIQ==
+-----END CERTIFICATE-----
+
+----------------------------------------
+
+        |-- utils
+            |-- docker_containers.py
+
+----------------------------------------
+Content of docker_containers.py:
+
+import docker
+
+# Initialize the Docker client
+client = docker.from_env()
+
+def get_running_container_names():
+    # Retrieve a list of all running containers
+    containers = client.containers.list(all=False)  # all=False is default and could be omitted for brevity
+    # Extract and return the names of these containers
+    container_names = []
+    for container in containers:
+        if "worker_" in container.name:
+            container_names.append(container.name)
+    return container_names
+
+def get_urls_of_running_containers():
+    """
+    Retrieve URLs for all running Docker containers that have exposed ports.
+
+    Returns:
+    list: A list of strings containing the URLs of the containers.
+    """
+    client = docker.from_env()  # Create a Docker client using default configuration
+    containers = client.containers.list()  # List only running containers
+    urls = []
+
+    # Iterate over each container and fetch URLs based on exposed ports
+    for container in containers:
+        ports = container.attrs['NetworkSettings']['Ports']
+        for container_port, mappings in ports.items():
+            if mappings is not None:
+                for mapping in mappings:
+                    # Assuming localhost; replace 'localhost' with your specific host if necessary
+                    url = f"http://localhost:{mapping['HostPort']}"
+                    if 'http://localhost:500' in url:
+                        urls.append(url)
+
+    return urls
+
+# Print the names of all currently running containers
+print(get_running_container_names())
+print(get_urls_of_running_containers())
+----------------------------------------
+
+            |-- fake_data.py
+
+----------------------------------------
+Content of fake_data.py:
+
+import faker
+
+faker  = faker.Faker()
+
+def fake_data_gen():
+    return {
+        "name": faker.name(),
+        "address": faker.address(),
+        "email": faker.email(),
+        "date_of_birth": str(faker.date_of_birth()),
+        "phone_number": faker.phone_number(),
+        "job": faker.job(),
+        "company": faker.company(),
+        "text": faker.text()
+    }
+
+print(fake_data_gen())
+----------------------------------------
+
+            |-- test_connection.py
+
+----------------------------------------
+Content of test_connection.py:
+
+import requests
+
+def check_worker_endpoints(worker_urls, timeout=5):
+    statuses = {}
+    for url in worker_urls:
+        try:
+            response = requests.get(url, timeout=timeout)  # Sending a GET request to the worker endpoint
+            if response.status_code == 200:
+                statuses[url] = 'active'
+            else:
+                statuses[url] = f'inactive (status code: {response.status_code})'
+        except requests.exceptions.RequestException as e:
+            statuses[url] = f'inactive (error: {str(e)})'
+    return statuses
+
+# Example URLs of worker endpoints
+worker_urls = [
+    'http://localhost:5001',
+    "http://localhost:5002",
+    "http://localhost:5003"
+]
+
+# Checking the status of each worker
+worker_statuses = check_worker_endpoints(worker_urls)
+for url, status in worker_statuses.items():
+    print(f"Endpoint: {url}, Status: {status}")
+
+----------------------------------------
+
+            |-- __init__.py
+
+----------------------------------------
+Content of __init__.py:
+
+
+----------------------------------------
+
+            |-- load_balancing.py
+
+----------------------------------------
+Content of load_balancing.py:
+
+from utils.docker_containers import get_running_container_names
+import requests
+from utils.fake_data import fake_data_gen
+import threading
+from flask import Flask, jsonify, request
+import time
+import docker
+import logging
+import queue
+import collections
+
+app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
+
+
+count = 0
+
+def round_robin():
+    global count
+    container_names = get_running_container_names()
+    if not container_names:
+        return None
+    next_server = container_names[count % len(container_names)]
+    count += 1
+    return next_server
+
+class TaskManager:
+    _lock = threading.Lock()
+    _instance = None
+
+    def __new__(cls):
+        with cls._lock:
+            if cls._instance is None:
+                cls._instance = super(TaskManager, cls).__new__(cls)
+                cls._instance.worker_states = {f"worker_{i+1}": "inactive" for i in range(5)}
+                cls._instance.last_active_times = {f"worker_{i+1}": time.time() for i in range(5)}
+                cls._instance.request_history = collections.defaultdict(lambda: collections.deque(maxlen=5))
+                cls._instance.task_queue = queue.Queue()
+                cls._instance.client = docker.from_env()
+                cls._instance.base_port = 5001
+                cls._instance.limit_try = 0
+                cls._instance.idle_time = 60
+                cls._instance.successful_task = 0
+                cls._instance.task_list_duplicate = []
+                cls._instance.task_list = []
+                cls._instance._initialize_workers()
+                cls._instance._initialize_status_checker()
+                cls._instance._initialize_idle_checker()  # Initialize the idle checker
+        return cls._instance
+
+    def _initialize_workers(self):
+        for _ in range(3):  # Creating three worker threads for improved concurrency
+            thread = threading.Thread(target=self._process_tasks)
+            thread.daemon = True
+            thread.start()
+
+    def _initialize_status_checker(self):
+        status_checker_thread = threading.Thread(target=self._check_worker_status)
+        status_checker_thread.daemon = True
+        status_checker_thread.start()
+
+    def _initialize_idle_checker(self):
+        idle_checker_thread = threading.Thread(target=self._check_idle_workers)
+        idle_checker_thread.daemon = True
+        idle_checker_thread.start()
+
+    def _check_worker_status(self):
+        while True:
+            app.logger.info("Checking worker status...")
+            # List to track active workers
+            active_workers = [w for w, state in self.worker_states.items() if state == 'active']
+            #app.logger.info(f"Active workers: {active_workers}, Last active times: {self.last_active_times[active_workers[0]]}")
+            # If there are no active workers and the total count of workers is less than 5
+            if not active_workers and len(get_running_container_names()) < 5:
+                if len(get_running_container_names()) > 0:
+                    app.logger.info("No active workers found. Attempting to create new worker.")
+                    name = len(get_running_container_names()) + 1
+                    self.create_workers(1, name)
+                    app.logger.info(f"All workers are inactive. Attempting to create new worker: worker_{name}")
+
+            # Additionally, handle scenario where all workers are inactive but the max limit hasn't been reached
+            elif all(state != 'active' for state in self.worker_states.values()) and len(self.worker_states) < 5:
+                name = len(self.worker_states) + 1
+                self.create_workers(1, name)
+                app.logger.info(f"All workers are inactive but not at max capacity. Creating new worker: worker_{name}")
+
+            time.sleep(2)  # Adjusted to 10 seconds for better system performance
+
+    def _process_tasks(self):
+        while True:
+            try:
+                task_data = self.task_queue.get(timeout=5)  # Adjust timeout to reduce load
+                if not self.assign_task(task_data):
+                    time.sleep(1)  # Adding delay before re-queuing
+                    self.task_queue.put(task_data)
+            except queue.Empty:
+                continue
+
+    def _check_idle_workers(self):  # Idle time limit in seconds
+        while True:
+            current_time = time.time()
+            running_containers = get_running_container_names()  # Get currently running container names
+            with self._lock:
+                for worker, last_active in list(self.last_active_times.items()):
+                    if (current_time - last_active > self.idle_time and
+                        worker in running_containers):  # Ensure worker is still running
+                        self.delete_worker(worker)
+                time.sleep(1)
+
+    def delete_worker(self, worker):
+        try:
+            container = self.client.containers.get(worker)
+            container.stop()
+            container.remove()
+            app.logger.info(f"Deleted idle worker: {worker}")
+            self.worker_states.pop(worker, None)
+            # Do not clear history here, allowing it to persist
+        except docker.errors.NotFound:
+            app.logger.warning(f"Worker {worker} not found for deletion.")
+        except Exception as e:
+            app.logger.error(f"Error deleting worker {worker}: {e}")
+
+    def assign_task(self, task_data):
+        for worker_id, state in self.worker_states.items():
+            if state == 'active':
+                if self.send_task(task_data, worker_id):
+                    return True
+        return False
+
+    def send_task(self, task_data, worker):
+        url = f'http://{worker}:8110/receive_data'
+        try:
+            response = requests.post(url, json=task_data, timeout=5)
+            if response.status_code == 200 and response.json().get('received'):
+                self.successful_task += 1
+                self.request_history[worker].append(task_data)  # Storing without the time to simplify the example
+                self.last_active_times[worker] = time.time()
+                return True
+            else:
+                self.update_worker_state(worker, 'inactive')
+        except requests.exceptions.RequestException as e:
+            app.logger.error(f"Error sending task to {worker}: {e}")
+            self.update_worker_state(worker, 'error')
+        return False
+
+    def update_worker_state(self, worker_id, state):
+        self.worker_states[worker_id] = state
+
+    def get_worker_state(self, worker_id):
+        return self.worker_states.get(worker_id, "unknown")
+
+    def load_task(self, data):
+        self.task_queue.put(data)
+        self.task_list_duplicate.append(data)
+
+    def create_workers(self, num_workers, name=None):
+        with self._lock:
+            current_workers = get_running_container_names()
+            if len(current_workers) >= 5:
+                app.logger.info("Maximum number of workers reached. No more workers will be created.")
+                return {}
+
+            workers = {}
+            for i in range(num_workers):
+                if name:
+                    container_name = f"worker_{name}"
+                    port = self.base_port + len(current_workers) + i  # Adjusted port assignment
+                else:
+                    container_name = f"worker_{i+ 1}"
+                    port = self.base_port  + i
+
+                # Check if the container already exists and is running
+                if container_name in current_workers:
+                    app.logger.info(f"Worker {container_name} already exists and is running. Skipping creation.")
+                    self.worker_states[container_name] = "active"  # Update the state if necessary
+                    continue
+                app.logger.info(f"Creating worker {container_name}")
+                try:
+                    container = self.client.containers.run(
+                        "worker_image",
+                        detach=True,
+                        ports={'8110/tcp': port},
+                        environment={'NODE_ID': f'node_{len(current_workers) + i + 1}', 'PORT': '8110'},
+                        name=container_name,
+                        hostname=container_name,
+                        network='abc-net',
+                        labels={'com.docker.compose.project': "distributedsessionnet"}
+                    )
+                    workers[container_name] = f'http://localhost:{port}'
+                    app.logger.info(f"Worker {container_name} created successfully.")
+                    time.sleep(1)  # Wait for the worker to start
+                    self.worker_states[container_name] = "active"
+                    self.last_active_times[container_name] = time.time()
+                    current_workers.append(container_name)
+                except docker.errors.APIError as e:
+                    app.logger.error(f"Failed to create worker {container_name}: {e}")
+
+            return workers
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
+----------------------------------------
+
+            |-- tets.py
+
+----------------------------------------
+Content of tets.py:
+
+import docker
+
+def get_worker_ip_map():
+    client = docker.from_env()
+    containers = client.containers.list(filters={"label": "com.docker.compose.project=distributedsessionnet"})
+    worker_ip_map = {}
+
+    for container in containers:
+        container_name = container.name
+        # Skip the central application container
+        if "central" not in container_name:
+            container_details = container.attrs
+            ip_address = container_details['NetworkSettings']['Networks']['abc-net']['IPAddress']
+            worker_ip_map[container_name] = ip_address
+
+    return worker_ip_map
+
+# Example usage:
+worker_ips = get_worker_ip_map()
+print(worker_ips)
+
+
+----------------------------------------
+
+        |-- static
+            |-- styles.css
+
+----------------------------------------
+Content of styles.css:
+
+/* General body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f7; /* Apple-like soft light gray background */
+    color: #1d1d1f; /* Dark gray for text, slightly softer than black */
+    text-align: center; /* Centering all text elements by default */
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+    font-weight: 600; /* Slightly bolder for a stronger hierarchy */
+    text-align: center; /* Explicitly center the heading */
+}
+
+/* Buttons and Select dropdown styling */
+select, button {
+    margin: 5px;
+    padding: 12px 18px; /* Comfortable padding for interaction */
+    border-radius: 8px; /* Apple uses rounded corners */
+    border: none; /* Remove borders for a cleaner look */
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Align items horizontally */
+    background-color: #007aff; /* Apple's signature blue */
+    color: #ffffff; /* White text for contrast */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #005bb5; /* Slightly darker on hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Soft shadow for depth */
+}
+
+select {
+    background-color: #f5f5f7; /* Matching the background color for consistency */
+    color: #1d1d1f;
+    transition: border-color 0.2s ease;
+}
+
+select:focus {
+    border-color: #007aff; /* Blue border on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Container for grouped actions */
+.action-group {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 15px;
+    border-radius: 12px;
+    display: flex; /* Ensure all items are in a row */
+    align-items: center; /* Align vertically */
+    justify-content: center; /* Centering horizontally */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+}
+
+/* Worker status styles */
+.worker-status-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center containers horizontally */
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.worker-status {
+    flex: 0 0 30%; /* Consistent sizing */
+    margin: 1.5%;
+    padding: 20px;
+    border: 1px solid #d1d1d6; /* Light gray border */
+    border-radius: 12px;
+    background-color: #ffffff;
+    min-height: 160px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* Smooth interactions */
+}
+
+.worker-status:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* Slightly deeper shadow on hover */
+    transform: translateY(-2px); /* Lift on hover for a more dynamic feel */
+}
+
+/* Active worker highlighting */
+.active-yes {
+    color: #34c759; /* Apple's green for success */
+    font-weight: 600;
+}
+
+.active-no {
+    color: #ff3b30; /* Apple's red for failure */
+    font-weight: 600;
+}
+
+/* List styles for active workers */
+#activeWorkers ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#activeWorkers li {
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d6;
+}
+
+#activeWorkers li:last-child {
+    border-bottom: none;
+}
+
+.task-info {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f2f2f7; /* Light gray background for subtle contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow for a gentle touch */
+}
+
+/* Task Metrics Container styles */
+.task-metrics-container {
+    display: flex;
+    justify-content: center; /* Center containers horizontally */
+    margin: 20px 0;
+    gap: 20px; /* Evenly spaced gaps between metric boxes */
+}
+
+.metric-box {
+    flex-grow: 1; /* Each box will grow equally */
+    text-align: center;
+    padding: 15px; /* Slightly reduced padding for a more compact look */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.metric-box:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* Lift effect on hover */
+    transform: translateY(-2px);
+}
+
+.metric-box h4 {
+    margin-bottom: 10px; /* Reduced margin for a tighter layout */
+    color: #1d1d1f;
+    font-size: 16px; /* Slightly smaller font size for heading */
+    font-weight: 600;
+}
+
+.metric-box p {
+    font-size: 18px; /* Slightly smaller font size for the metric values */
+    font-weight: bold;
+    color: #007aff; /* Apple's signature blue */
+}
+/* Checkbox styling */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #007aff; /* Add a blue border */
+    border-radius: 4px; /* Rounded corners for a softer look */
+    background-color: #f5f5f7; /* Match the background color for consistency */
+    appearance: none; /* Remove default checkbox styling */
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease; /* Smooth transitions */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007aff; /* Fill background with blue when checked */
+    border-color: #005bb5; /* Darken border color when checked */
+}
+
+input[type="checkbox"]:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 4px #007aff; /* Add a subtle glow on focus */
+}
+.worker-details {
+    margin-bottom: 20px;
+}
+
+/* Worker Details Table Styles */
+.worker-details {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for each worker's details section */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners like Apple design */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.worker-status-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin-top: 10px;
+}
+
+.worker-status-table th, .worker-status-table td {
+    border-bottom: 1px solid #d1d1d6; /* Light gray border for each row */
+    padding: 8px;
+    text-align: left;
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+.worker-status-table th {
+    background-color: #f0f0f0; /* Light gray background for header */
+    color: #1d1d1f; /* Dark gray text color */
+}
+
+.worker-status-table td {
+    background-color: #fff; /* White background for table cells */
+}
+
+.worker-status-table tr:last-child td {
+    border-bottom: none; /* Removes bottom border from the last row */
+}
+
+.worker-status-table tr:hover {
+    background-color: #f5f5f7; /* Light gray background on row hover for better interaction feedback */
+}
+
+/* Enhance appearance of headers to align more with iOS style */
+.worker-status-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase; /* Making header text uppercase for better visibility */
+    letter-spacing: 0.05em; /* Adding some letter spacing for aesthetics */
+}
+
+/* Additional styles to enhance readability and aesthetics */
+.worker-status-table td {
+    color: #666; /* Darker text for better readability */
+    line-height: 1.5; /* Increased line height for more readable text */
+}
+
+/* Main container for side-by-side layout */
+.main-container {
+    display: flex; /* Display the sections side by side */
+    justify-content: space-between; /* Add some space between the sections */
+    gap: 20px; /* Optional: gap between the two sections */
+    margin-top: 20px;
+}
+
+/* Style for each section */
+.manage-workers-section, .status-send-data-section {
+    flex: 1; /* Make both sections take equal space */
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px; /* Add some padding */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Ensure the sections don't shrink too much */
+.manage-workers-section, .status-send-data-section {
+    min-width: 300px; /* Prevent sections from shrinking too much */
+}
+
+/* Additional styling for small screens */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+}
+
+#refreshButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+    color: #007aff; /* Styling button color to match your theme */
+}
+
+#refreshButton:hover {
+    color: #005bb5; /* Darker blue on hover for visual feedback */
+}
+
+/* Buttons and Select dropdown styling */
+select, button {
+    width: 180px; /* Ensure same width for both */
+    height: 38px; /* Uniform height */
+    line-height: 24px; /* Adjust line height to center text vertically */
+    margin: 5px;
+    padding: 7px 12px; /* Adjusted padding for consistency */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #007aff; /* Add border to make select visually similar to button */
+    font-size: 16px; /* Consistent font size */
+    cursor: pointer;
+    display: inline-block; /* Align items horizontally */
+    background-color: #007aff; /* Consistent background for buttons */
+    color: #ffffff; /* White text for contrast */
+    transition: all 0.2s ease; /* Smooth transitions for hover effects */
+}
+
+button {
+    background-color: #007aff; /* Apple's signature blue */
+    border: 1px solid #007aff; /* Consistent border style */
+}
+
+button:hover {
+    background-color: #005bb5; /* Slightly darker on hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Soft shadow for depth */
+}
+
+select {
+    background-color: #ffffff; /* White background for select */
+    color: #1d1d1f; /* Dark color for text */
+}
+
+select:hover {
+    border-color: #005bb5; /* Darker border on hover for select */
+}
+
+/* Flexbox setup for aligning button and select */
+.button-select-pair {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Additional customizations may be necessary depending on other styles in your CSS or specific layout requirements. */
+/* Flexbox setup for aligning button and select within their pairs */
+.button-select-pair {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    margin: 10px 0;            /* Add vertical margin for spacing */
+}
+
+.manage-workers-section {
+    display: flex;
+    flex-direction: column;   /* Stack child elements vertically */
+    align-items: center;      /* Align child elements in the center */
+    justify-content: center;  /* Center content vertically */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Adjust the overall alignment and spacing in the main container */
+.main-container {
+    display: flex;
+    justify-content: space-around; /* Space around to add space between the two sections */
+    align-items: start;            /* Align items at the start of the container */
+    flex-wrap: wrap;               /* Allow items to wrap in smaller screens */
+    margin: 20px;                  /* Outer margin for spacing */
+    padding: 20px;                 /* Padding inside the container */
+}
+
+/* Ensure that the container elements are also centered */
+.status-send-data-section, .manage-workers-section {
+    width: 45%;                    /* Set a specific width for each section */
+    margin: 10px;                  /* Margin around each section for spacing */
+    padding: 20px;                 /* Padding inside each section */
+    display: flex;
+    flex-direction: column;        /* Stack the contents vertically */
+    align-items: center;           /* Align items in the center */
+    justify-content: space-between;/* Space the internal items evenly */
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;   /* Stack sections vertically on small screens */
+    }
+    .status-send-data-section, .manage-workers-section {
+        width: 100%;              /* Each section takes full width on small screens */
+    }
+}
+
+----------------------------------------
+
+        |-- app.py
+
+----------------------------------------
+Content of app.py:
+
+from flask import Flask, render_template, jsonify, request
+import docker
+from utils.docker_containers import get_running_container_names
+from utils.fake_data import fake_data_gen
+from utils.load_balancing import TaskManager
+import requests
+import logging
+
+app = Flask(__name__)
+client = docker.from_env()
+app.logger.setLevel(logging.INFO)
+
+@app.after_request
+def after_request(response):
+    """Set CORS headers for every response."""
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
+
+@app.route('/')
+def index():
+    return render_template('create_workers.html')
+
+@app.route('/create_workers', methods=['POST'])
+def create_workers():
+    num_workers = request.json.get('num_workers', 2)
+    task_manager = TaskManager()
+    workers = task_manager.create_workers(num_workers)
+    response = {'message': f'{num_workers} workers created', 'workers': workers}
+    return jsonify(response)
+
+@app.route('/kill_worker', methods=['POST'])
+def kill_worker():
+    worker_name = request.json['worker_name']
+    try:
+        container = client.containers.get(worker_name)
+        container.stop()
+        container.remove()
+        app.logger.info(f"Worker {worker_name} killed")
+        return jsonify({'message': f'{worker_name} successfully killed'}), 200
+    except Exception as e:
+        return jsonify({'message': f'Error killing {worker_name}: {str(e)}'}), 500
+
+@app.route('/kill_all_workers', methods=['POST'])
+def kill_all_workers():
+    containers = client.containers.list()  # List all containers
+    for container in containers:
+        if "worker_" in container.name:
+            try:
+                container.stop()
+                container.remove()
+            except Exception as e:
+                return jsonify({'message': f'Error killing {container.name}: {str(e)}'}), 500
+    return jsonify({'message': 'All workers have been killed'}), 200
+
+@app.route('/workers', methods=['GET'])
+def workers():
+    jsonn = get_running_container_names()
+    return jsonify(jsonn)
+
+@app.route('/worker_status/<worker_name>', methods=['GET'])
+def worker_status(worker_name):
+    task_manager = TaskManager()  # Ensure this uses your existing TaskManager instance
+    try:
+        # Assuming the worker status includes whether it's active and its last response etc.
+        response = requests.get(f"http://{worker_name}:8110/status")
+        response_json = response.json()
+        # Add the request history to the JSON response
+        response_json['request_history'] = list(task_manager.request_history[worker_name])
+        return jsonify(response_json), response.status_code
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/worker_status2/<worker_name>', methods=['GET'])
+def worker_status2(worker_name):
+    task_manager = TaskManager()  # Singleton instance of TaskManager
+    try:
+        # Retrieve the worker's history from the defaultdict
+        worker_history = task_manager.request_history[worker_name]
+        #app.logger.info(f"Worker history for {worker_name}: {worker_history}")
+
+        # Process the history to extract the task data
+        history_data = [
+            {
+                'name': entry['name'],
+                'email': entry['email'],
+                'job': entry['job'],
+                'address': entry['address'],
+                'phone_number': entry['phone_number'],
+                'company': entry['company'],
+                'text': entry['text']
+            } for entry in worker_history
+        ]
+
+        return jsonify({
+            'active': task_manager.get_worker_state(worker_name) == 'active',
+            'request_history': history_data
+        }), 200
+    except Exception as e:
+        app.logger.error(f"Error in worker_status2: {str(e)}")  # Log the error
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/workers_get', methods=['GET'])
+def get_workers():
+    task_manager = TaskManager()  # Assuming singleton pattern
+    workers = get_running_container_names()
+    active_count = sum(1 for w in workers if task_manager.get_worker_state(w) == 'active')
+    return jsonify({
+        'activeWorkers': active_count,
+        'successfulTasks': task_manager.successful_task,
+        'taskListDuplicateCount': len(task_manager.task_list_duplicate),
+        'workers': workers
+    })
+
+
+@app.route('/idle_time', methods=['POST'])
+def idle_time():
+    data = request.json
+    app.logger.info(f"Data received: {data}")
+    idle_time = data.get('idletime')
+    app.logger.info(f"Idle Time: {idle_time}")
+    task_manager = TaskManager()  # Assuming singleton pattern
+    task_manager.idle_time = idle_time
+    app.logger.info(f"Idle Time set to {task_manager.idle_time}")
+    return jsonify({"success": True, "message": f"Workers will get deleted after remaining idle for {idle_time} sec"}), 200
+
+
+@app.route('/send_fake_data', methods=['POST'])
+def send_fake_data():
+    try:
+        fake_data = fake_data_gen()
+        task_manager = TaskManager()
+        task_manager.load_task(fake_data)
+        response = 'response'
+        return jsonify(response)
+    except requests.exceptions.RequestException as e:
+        return jsonify({"success": False, "message": str(e)}), 500
+
+@app.route('/update_status', methods=['POST'])
+def status():
+    data = request.json
+    worker_id = data.get('name')
+    state = data.get('active')
+    state = "active" if state in [True, "True"] else state
+
+    task_manager = TaskManager()
+    task_manager.update_worker_state(worker_id, state)
+    return jsonify({"success": True, "message": "Worker state updated"}), 200
+
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=7110)
+
+----------------------------------------
+
+        |-- templates
+            |-- create_workers.html
+
+----------------------------------------
+Content of create_workers.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create and Manage Workers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg"> <!-- Example: Python icon -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Poll the backend every 5 seconds to fetch the latest worker status
+            // setInterval(function() {
+            //     fetchWorkerStatus();
+            // }, 5000);
+
+            document.getElementById('startButton').onclick = function() {
+                event.preventDefault();
+                var numWorkers = document.getElementById('numWorkersSelect').value;
+                $.ajax({
+                    url: '/create_workers',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({num_workers: parseInt(numWorkers, 10)}),
+                    success: function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after creation
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Error creating workers: " + xhr.responseText);
+                    }
+                });
+            };
+
+            document.getElementById('idleButton').onclick = function() {
+                event.preventDefault();
+                var idle_time = document.getElementById('idle_time_select').value;
+                $.ajax({
+                    url: '/idle_time',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({idletime: parseInt(idle_time, 10)}),
+                    success: function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after creation
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Error creating workers: " + xhr.responseText);
+                    }
+                });
+            };
+
+            document.getElementById('killButton').onclick = function() {
+                event.preventDefault();
+                var selectedWorker = document.getElementById('workerSelect').value;
+                if (selectedWorker === "Select All") {
+                    $.post('/kill_all_workers', function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after killing
+                    }).fail(function(xhr, status, error) {
+                        alert("Error killing all workers: " + xhr.responseText);
+                    });
+                } else {
+                    $.ajax({
+                        url: '/kill_worker',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({worker_name: selectedWorker}),
+                        success: function(response) {
+                            document.getElementById("statusMessage").textContent = response.message;
+                            loadWorkers(); // Refresh worker list after killing
+                        },
+                        error: function(xhr, status, error) {
+                            alert("Error killing worker: " + xhr.responseText);
+                        }
+                    });
+                }
+            };
+
+            document.getElementById('refreshButton').addEventListener('click', function() {
+                fetchWorkerStatus();
+                loadWorkers();
+                fetchDetailedWorkerStatuses(); // Trigger getStatusButton functionality
+            });
+
+            document.getElementById('refreshButton2').addEventListener('click', function() {
+                fetchWorkerStatus();
+                loadWorkers();
+                fetchDetailedWorkerStatuses(); // Trigger getStatusButton functionality
+            });
+
+
+            // document.getElementById('getStatusButton').onclick = function() {
+            //     event.preventDefault();
+            //     fetchWorkerStatus(); // Manually get worker status
+            //     loadWorkers(); // Manually get worker list
+            //     fetchDetailedWorkerStatuses(); // Manually get detailed status
+            // };
+
+            document.getElementById('sendFakeDataButton').onclick = function() {
+                event.preventDefault();
+                $.post('/send_fake_data', function(response) {
+                    document.getElementById("statusMessage").textContent = "Fake data sent successfully!";
+                }).fail(function(xhr, status, error) {
+                    alert("Failed to send fake data: " + xhr.responseText);
+                });
+            };
+
+            // Fetch worker status from the backend
+        function loadWorkers() {
+            console.log('Fetching worker data... loadWorkers()');
+            $.getJSON('/workers_get', function(data) {
+                console.log('Data received:', data);  // Check what data is received
+
+                // Update metrics
+                document.getElementById('activeWorkers').textContent = data.activeWorkers;
+                document.getElementById('successfulTasks').textContent = data.successfulTasks;
+                document.getElementById('taskListDuplicates').textContent = data.taskListDuplicateCount;
+
+                var workerList = document.getElementById('activeWorkersList');
+                workerList.innerHTML = `<h3>Active Workers: ${data.activeWorkers}</h3>`;
+
+                // Clear existing options in the worker select dropdown for killing workers
+                var killWorkerSelect = document.getElementById('workerSelect');
+                killWorkerSelect.innerHTML = '';  // Clear existing options
+
+                // Check if there are workers and add options accordingly
+                if (data.workers && data.workers.length > 0) {
+                    if (data.workers.length > 1) {
+                        killWorkerSelect.add(new Option("Select All", "Select All"));
+                    }
+
+                    // Add new active workers to the kill dropdown
+                    data.workers.forEach(function(worker) {
+                        var option = new Option(worker, worker);
+                        killWorkerSelect.add(option);
+                        workerList.innerHTML += `<li>${worker}</li>`;  // Also update the worker list display
+                    });
+                } else {
+                    console.log('No workers found');
+                }
+            }).fail(function(jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        }
+
+            function fetchWorkerStatus() {
+                console.log('Fetching worker status... fetchWorkerStatus()');
+                for (let i = 1; i <= 5; i++) {
+                    document.getElementById(`workerStatus${i}`).innerHTML = 'Not Active';
+                }
+
+                $.getJSON('/workers', function(workers) {
+                    let allPromises = [];
+
+                    workers.forEach(function(workerName, index) {
+                        let url = `/worker_status/${workerName}`;
+                        console.log(`Fetching status from: ${url}`);
+
+                        let fetchPromise = $.get(url, function(status) {
+                            let requestsHandled = status.requests_handled || 0;
+                            let totalRequests = 5;
+
+                            let content = `<div class='worker-info'>
+                                                <p><strong>Name:</strong> ${status.name}</p>
+                                                <p><strong>Active:</strong> ${status.active ? 'Yes' : 'No'}</p>
+                                                <p><strong>Requests Handled:</strong> ${requestsHandled} / ${totalRequests}</p>
+                                                <p><strong>Last Request:</strong> ${status.latest_request}</p>
+                                            </div>`;
+                            document.getElementById(`workerStatus${index + 1}`).innerHTML = content;
+                            if (requestsHandled >= totalRequests) {
+                                document.getElementById(`workerStatus${index + 1}`).innerHTML += '<p style="color: red;">Worker has reached the request limit.</p>';
+                            }
+
+                            return { worker_id: status.name, state: status.active };
+                        }).fail(function() {
+                            document.getElementById(`workerStatus${index + 1}`).innerHTML = 'Failed to load data';
+                        });
+
+                        //allPromises.push(fetchPromise);
+                    });
+
+                    Promise.all(allPromises).then(results => {
+                        results.forEach(result => {
+                            if (result) {
+                                $.ajax({
+                                    url: '/update_status',
+                                    type: 'POST',
+                                    contentType: 'application/json',
+                                    data: JSON.stringify(result),
+                                    success: function(response) {
+                                        console.log('Task Manager Update Response:', response);
+                                    },
+                                    error: function(xhr, status, error) {
+                                        console.log('Error updating Task Manager:', xhr.responseText);
+                                    }
+                                });
+                            }
+                        });
+                    });
+                });
+            }
+
+            function fetchDetailedWorkerStatuses() {
+                console.log('Fetching detailed worker statuses... fetchDetailedWorkerStatuses()');
+                $('#detailedWorkerStatusContainer').html('<p>Loading detailed statuses...</p>');
+
+                // Define the list of all workers
+                const workers = ['worker_1', 'worker_2', 'worker_3', 'worker_4', 'worker_5'];
+
+                let content = '<h2>Detailed Worker Statuses</h2>';
+
+                // Iterate through the predefined list of workers
+                workers.forEach(function(workerName) {
+                    let url = `/worker_status2/${workerName}`;
+
+                    $.get(url, function(status) {
+                        let tableContent = `<div class='worker-details'>
+                                            <h3>Status for ${workerName} - Active: ${status.active ? 'Yes' : 'No'}</h3>
+                                            <table class='worker-status-table'>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>Job</th>
+                                                    <th>Address</th>
+                                                    <th>Phone Number</th>
+                                                    <th>Company</th>
+                                                    <th>Text</th>
+                                                </tr>`;
+                        status.request_history.forEach(function(request) {
+                            tableContent += `<tr>
+                                                <td>${request.name}</td>
+                                                <td>${request.email}</td>
+                                                <td>${request.job}</td>
+                                                <td>${request.address}</td>
+                                                <td>${request.phone_number}</td>
+                                                <td>${request.company}</td>
+                                                <td>${request.text}</td>
+                                            </tr>`;
+                        });
+                        tableContent += '</table></div>';
+                        content += tableContent;
+
+                        $('#detailedWorkerStatusContainer').html(content);
+                    }).fail(function() {
+                        $('#detailedWorkerStatusContainer').append(`<div><p>Failed to load data for ${workerName}</p></div>`);
+                    });
+                });
+            }
+
+        });
+    </script>
+</head>
+<body>
+    <h1>Redis Pro Maxx</h1>
+
+    <!-- Main Container for side-by-side layout -->
+    <div class="main-container">
+        <!-- Manage Worker Section -->
+        <div class="manage-workers-section", style="position: relative;">
+            <button id="refreshButton" style="position: absolute; top: 10px; right: 10px; border: none; background: none; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <h2>Manage Workers</h2>
+            <div class="button-select-pair">
+                <button id="startButton">Create Workers</button>
+                <select id="numWorkersSelect">
+                    <option value="1">1 Worker</option>
+                    <option value="2">2 Workers</option>
+                    <option value="3">3 Workers</option>
+                    <option value="4">4 Workers</option>
+                    <option value="5">5 Workers</option>
+                </select>            </div>
+
+            <div class="button-select-pair">
+                <button id="idleButton">Idle Time</button>
+                <select id="idle_time_select">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+
+            <div class="button-select-pair">
+                <button id="killButton">Kill Worker</button>
+                <select id="workerSelect">  <!-- Changed ID -->
+                    <!-- Options will be dynamically added here -->
+                </select>
+            </div>
+
+            <p id="statusMessage">Ready to create or kill workers.</p>
+            <!-- Task Metrics Container -->
+            <div class="task-metrics-container">
+                <div class="metric-box">
+                    <h4>Active Workers:</h4>
+                    <p id="activeWorkers">0</p>
+                </div>
+                <div class="metric-box">
+                    <h4>Successful Tasks:</h4>
+                    <p id="successfulTasks">0</p>
+                </div>
+                <div class="metric-box">
+                    <h4>Total Tasks:</h4>
+                    <p id="taskListDuplicates">0</p>
+                </div>
+            </div>
+            <div id="activeWorkersList"></div>
+        </div>
+
+        <!-- Status and Send Data Section -->
+        <div class="status-send-data-section", style="position: relative;">
+            <button id="refreshButton2" style="position: absolute; top: 10px; right: 10px; border: none; background: none; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <!-- <button id="getStatusButton">Get Worker Status</button> -->
+            <button id="sendFakeDataButton">Send Fake Data </button>
+            <h2>Status and Send Data</h2>
+            <div class="worker-status-container">
+                <div id="workerStatus1" class="worker-status">No active worker</div>
+                <div id="workerStatus2" class="worker-status">No active worker</div>
+                <div id="workerStatus3" class="worker-status">No active worker</div>
+                <div id="workerStatus4" class="worker-status">No active worker</div>
+                <div id="workerStatus5" class="worker-status">No active worker</div>
+            </div>
+
+
+        </div>
+    </div>
+            <!-- Detailed Worker Status Container -->
+    <div id="detailedWorkerStatusContainer">
+        <h2>Detailed Worker Statuses</h2>
+        <div id="allDetailedStatuses"></div>
+    </div>
+</body>
+
+</html>
+
+----------------------------------------
+
+        |-- Dockerfile.central
+
+----------------------------------------
+Content of Dockerfile.central:
+
+# central-app/Dockerfile
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+COPY requirements.txt .
+# Set the working directory in the container
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    gcc \
+    libc-dev
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Make port 7110 available to the world outside this container
+EXPOSE 7110
+
+# Define environment variable
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=7110
+
+# Command to run the app
+CMD ["python", "app.py"]
+----------------------------------------
+
+    |-- node-app
+        |-- worker.py
+
+----------------------------------------
+Content of worker.py:
+
+# worker.py
+from flask import Flask, request, jsonify
+import os
+import requests
+import socket
+from flask_cors import CORS
+import logging
+import threading  # Import threading for handling timers
+from decouple import config  # Import the config function from decouple
+
+app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
+CORS(app)
+
+latest_request_name = None
+count = 0
+status_worker = True
+reset_timer = None  # Global timer for resetting count
+central_app_ip = config('CENTRAL_APP_IP', default='localhost')
+
+def reset_worker_status():
+    app.logger.info("Resetting worker status...")
+    global count, status_worker
+    status_worker = True
+    count = 0  # Reset count to zero
+    # status_data = {
+    #     'name': socket.gethostname(),
+    #     'active': True,
+    #     "identifier": "reset"
+    # }
+    # response = requests.post('http://distributedsessionnet-central-1:7110/update_status', json=status_data)
+    # app.logger.info(f"Response from central app after updating the worker status: {response.json()}")
+
+@app.after_request
+def apply_csp(response):
+    response.headers["Content-Security-Policy"] = "upgrade-insecure-requests"
+    return response
+
+@app.route('/')
+def index():
+    return "Welcome to the Worker App my dear!"
+
+@app.route('/receive_data', methods=['POST'])
+def receive_data():
+    global latest_request_name, count, status_worker, reset_timer
+    # Process only if the worker is active
+    if status_worker:
+        data = request.json
+        app.logger.info(f"Received data: {data}")
+
+        if 'name' in data:
+            latest_request_name = data['name']
+            count += 1
+
+        # Check if count reached 2 and trigger status change
+        if count >= 5:
+            status_worker = False  # Set worker status to inactive immediately
+            app.logger.info("Worker status set to inactive")
+
+            # Send status to the central app
+            status_data = {
+                'name': socket.gethostname(),
+                'active': status_worker,
+            }
+            # Start a timer to reset the worker status after 10 seconds
+            if reset_timer is not None:
+                reset_timer.cancel()  # Cancel any existing timer
+            reset_timer = threading.Timer(30.0, reset_worker_status)
+            reset_timer.start()
+
+            # response = requests.get(central_app_ip +'/update_status', json=status_data)
+            # app.logger.info(f"Response from central app: {response.json()}")
+
+
+        return jsonify({"received": True, "data": data})
+
+    else:
+        app.logger.info("Worker is inactive; rejecting request.")
+        return jsonify({"received": False, "message": "Worker is not active"})
+
+
+@app.route('/status', methods=['GET'])
+def status():
+    global latest_request_name, count, status_worker
+    status_data = {
+        'name': socket.gethostname(),
+        'active': status_worker,
+        'requests_handled': count,
+        'latest_request': latest_request_name if latest_request_name else "No request received yet"
+    }
+    return jsonify(status_data)
+
+@app.route('/compute', methods=['POST'])
+def compute():
+    data = request.json
+    result = sum(data['numbers'])
+    return jsonify({'result': result, 'node_id': os.getenv('NODE_ID')})
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 8110))
+    app.run(debug=True, host='0.0.0.0', port=port)
+
+----------------------------------------
+
+        |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+APScheduler
+python-decouple
+
+----------------------------------------
+
+        |-- .env
+
+----------------------------------------
+Content of .env:
+
+CENTRAL_IP ="http://distributedsessionnet-central-1:7110"
+----------------------------------------
+
+        |-- Dockerfile.worker
+
+----------------------------------------
+Content of Dockerfile.worker:
+
+# node-app/Dockerfile.worker
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    build-essential \
+    gcc \
+    libffi-dev \
+    libssl-dev \
+    net-tools && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+
+
+# Make port 8110 available to the world outside this container
+EXPOSE 8110
+
+# Define environment variable
+ENV FLASK_APP=worker.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=8110
+
+# Command to run the app
+CMD ["python", "worker.py"]
+
+# docker build -f Dockerfile.worker -t worker_image .
+
+----------------------------------------
+
+    |-- .gitignore
+
+----------------------------------------
+Content of .gitignore:
+
+venv
+.env
+----------------------------------------
+
+    |-- .github
+        |-- workflows
+            |-- deploy.yml
+
+----------------------------------------
+Content of deploy.yml:
+
+name: Deploy to EC2 on Push
+
+on:
+  push:
+    branches:
+      - new_approach
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Temporary checks to ensure SSH key format is correct (remove after confirmation)
+    - name: Check SSH Key Format
+      run: |
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" | wc -l
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" | head -n 1
+
+    - name: Set up SSH Key and Known Hosts
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa 51.20.78.225 >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+
+    - name: Debug SSH connection
+      run: ssh -vvv ec2-user@51.20.78.225
+
+    - name: Deploy to EC2
+      run: |
+        rsync -avz --exclude '.git*' --delete ./ ec2-user@51.20.78.225:/home/ec2-user/DistributedSessionNet
+        ssh ec2-user@51.20.78.225 "bash /home/ec2-user/deploy_script.sh"
+
+----------------------------------------
+
+    |-- docker-compose.yml
+
+----------------------------------------
+Content of docker-compose.yml:
+
+version: '3.8'
+
+services:
+  central:
+    build:
+      context: ./central-app
+      dockerfile: Dockerfile.central
+    ports:
+      - "7110:7110"
+    volumes:
+      - ./central-app:/app
+      - /var/run/docker.sock:/var/run/docker.sock  # Allows Docker API access from the container
+    networks:
+      - abc-net
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_RUN_PORT=7110
+
+networks:
+  abc-net:
+    driver: bridge
+    external: true
+
+----------------------------------------
+
+    |-- Procfile
+
+----------------------------------------
+Content of Procfile:
+
+web: gunicorn central-app.app:app
+
+----------------------------------------
+
+|-- Directure
+    |-- directure.py
+
+----------------------------------------
+Content of directure.py:
+
+import os
+import sys
+
+def print_directory_structure(path, indent_level=0, ignore_list=None, write_mode=False, output_file=None):
+    # Get a list of all items (files and directories) in the given path
+    items = os.listdir(path)
+
+    if ignore_list is None:
+        ignore_list = []
+
+    for item in items:
+        if item in ignore_list:
+            continue  # Skip items that are in the ignore list
+
+        # Get the absolute path of the item
+        item_path = os.path.join(path, item)
+
+        # Prepare the formatted line for the directory structure
+        line = ' ' * indent_level + '|-- ' + item
+
+        # Print the item to the console
+        print(line)
+
+        # If write_mode is enabled, write the line to the output file
+        if write_mode and output_file:
+            output_file.write(line + "\n")
+
+            # If it's a file, also write its content to the output file
+            if os.path.isfile(item_path):
+                output_file.write("\n" + "-" * 40 + "\n")
+                output_file.write(f"Content of {item}:\n\n")
+                try:
+                    with open(item_path, 'r') as file:
+                        output_file.write(file.read())
+                except Exception as e:
+                    output_file.write(f"Error reading file {item}: {e}")
+                output_file.write("\n" + "-" * 40 + "\n\n")
+
+        # If the item is a directory, recursively call this function
+        if os.path.isdir(item_path):
+            print_directory_structure(item_path, indent_level + 4, ignore_list, write_mode, output_file)
+
+# Function to write both directory structure and file contents to a file
+def write_structure_and_contents(directory_path, ignore_list, output_filename):
+    with open(output_filename, 'w') as f:
+        # Write the directory structure and contents of files
+        f.write("Directory Structure and File Contents:\n\n")
+        print_directory_structure(directory_path, ignore_list=ignore_list, write_mode=True, output_file=f)
+
+# Get the list of command-line arguments
+args = sys.argv[1:]
+
+# Check if -w flag is present for writing output to a file
+write_mode = '-w' in args
+
+# If -w is present, remove it from args and get the filename to write
+if write_mode:
+    args.remove('-w')
+    output_filename = "directory_structure_and_contents.txt"
+
+# The remaining args are files and directories to ignore
+ignore_list = args
+
+# Specify the path of the directory you want to analyze
+directory_path = '/Users/atharvatonape/Desktop/Project'
+
+# If write_mode is enabled, write the structure and contents to the output file
+if write_mode:
+    write_structure_and_contents(directory_path, ignore_list, output_filename)
+    print(f"\nDirectory structure and contents written to {output_filename}")
+else:
+    # Just print the directory structure if -w flag is not provided
+    print_directory_structure(directory_path, ignore_list=ignore_list)
+
+----------------------------------------
+
+    |-- directory_structure_and_code.txt
+
+----------------------------------------
+Content of directory_structure_and_code.txt:
+
+Directory Structure:
+|-- .DS_Store
+|-- DistributedSessionNet
+    |-- .DS_Store
+    |-- Session-Management.code-workspace
+    |-- vercel.json
+    |-- requirements.txt
+    |-- central-app
+        |-- .DS_Store
+        |-- requirements.txt
+        |-- key.pem
+        |-- cert.pem
+        |-- utils
+            |-- docker_containers.py
+            |-- fake_data.py
+            |-- test_connection.py
+            |-- __init__.py
+            |-- load_balancing.py
+            |-- tets.py
+        |-- static
+            |-- styles.css
+        |-- app.py
+        |-- templates
+            |-- create_workers.html
+        |-- Dockerfile.central
+    |-- node-app
+        |-- worker.py
+        |-- requirements.txt
+        |-- .env
+        |-- Dockerfile.worker
+    |-- .gitignore
+    |-- .github
+        |-- workflows
+            |-- deploy.yml
+    |-- docker-compose.yml
+    |-- Procfile
+|-- Directure
+    |-- directure.py
+    |-- directory_structure_and_code.txt
+
+
+Python Code:
+import os
+import sys
+
+def print_directory_structure(path, indent_level=0, ignore_list=None, write_mode=False, output_file=None):
+    # Get a list of all items (files and directories) in the given path
+    items = os.listdir(path)
+
+    if ignore_list is None:
+        ignore_list = []
+
+    for item in items:
+        if item in ignore_list:
+            continue  # Skip items that are in the ignore list
+
+        # Get the absolute path of the item
+        item_path = os.path.join(path, item)
+
+        # Prepare the formatted line for the directory structure
+        line = ' ' * indent_level + '|-- ' + item
+
+        # Print the item to the console
+        print(line)
+
+        # If write_mode is enabled, write the line to the output file
+        if write_mode and output_file:
+            output_file.write(line + "\n")
+
+        # If the item is a directory, recursively call this function
+        if os.path.isdir(item_path):
+            print_directory_structure(item_path, indent_level + 4, ignore_list, write_mode, output_file)
+
+# Function to write both directory structure and the code to a file
+def write_structure_and_code(directory_path, ignore_list, code_file_name):
+    with open(code_file_name, 'w') as f:
+        # First, write the directory structure
+        f.write("Directory Structure:\n")
+        print_directory_structure(directory_path, ignore_list=ignore_list, write_mode=True, output_file=f)
+
+        # Then, write the Python code itself
+        f.write("\n\nPython Code:\n")
+        with open(__file__, 'r') as script_file:
+            script_code = script_file.read()
+            f.write(script_code)
+
+# Get the list of command-line arguments
+args = sys.argv[1:]
+
+# Check if -w flag is present for writing output to a file
+write_mode = '-w' in args
+
+# If -w is present, remove it from args and get the filename to write
+if write_mode:
+    args.remove('-w')
+    output_filename = "directory_structure_and_code.txt"
+
+# The remaining args are files and directories to ignore
+ignore_list = args
+
+# Specify the path of the directory you want to analyze
+directory_path = '/Users/atharvatonape/Desktop/Project'
+
+# If write_mode is enabled, write the structure and code to the output file
+if write_mode:
+    write_structure_and_code(directory_path, ignore_list, output_filename)
+    print(f"\nDirectory structure and code written to {output_filename}")
+else:
+    # Just print the directory structure if -w flag is not provided
+    print_directory_structure(directory_path, ignore_list=ignore_list)
+
+----------------------------------------
+
+    |-- directory_structure_and_contents.txt
+
+----------------------------------------
+Content of directory_structure_and_contents.txt:
+
+Directory Structure and File Contents:
+
+|-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0xda in position 1073: invalid continuation byte
+----------------------------------------
+
+|-- DistributedSessionNet
+    |-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0x85 in position 1062: invalid start byte
+----------------------------------------
+
+    |-- Session-Management.code-workspace
+
+----------------------------------------
+Content of Session-Management.code-workspace:
+
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
+----------------------------------------
+
+    |-- vercel.json
+
+----------------------------------------
+Content of vercel.json:
+
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ],
+  "env": {
+    "FLASK_ENV": "production"
+  }
+}
+
+----------------------------------------
+
+    |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+faker
+gunicorn==20.0.4
+flask-cors
+APScheduler
+----------------------------------------
+
+    |-- central-app
+        |-- .DS_Store
+
+----------------------------------------
+Content of .DS_Store:
+
+Error reading file .DS_Store: 'utf-8' codec can't decode byte 0xb8 in position 1077: invalid start byte
+----------------------------------------
+
+        |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+faker
+gunicorn==20.0.4
+flask-cors
+APScheduler
+waitress
+----------------------------------------
+
+        |-- key.pem
+
+----------------------------------------
+Content of key.pem:
+
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChR/719FPbDvF+
+P5V+ok+jP4fbM6BLSDip2juH4glZix+lEiJ/HcWmTOhkX4BYMwEZdVzfwLWNCA9R
+MiLxoe0zM0ibs8rROzhHWaj3LUd3LAFLdGY5dIaaHGMO8zDbCRZd8v3hUfstW06a
+/YDYVXqaBw28YC4/KfyGYiBL4GsYHpAgC5v3Rc7e4sUL6sODjTx6z7AGoUSjLX77
+WU3b0maDHhZamL0PUjbE+ooQLULvF3FsYmlNoP6jczZPvL52BPxSTpRa2eU37QbU
+Kf7NwXgiuB+kcWNyqh5pjj5UziGlrquTXHGt2aoLCJ/atMzplcXa/edVjdmUTuIO
+usJACpKdAgMBAAECggEAT5BgBGBLehcOJdUiX/2cwhFWaVo3qsvvQEPr+GYXbLhI
+nTusDv/WAOuR/eprO5e15CRU9AFyzyd5vvm36XKTvR2ApWd2F/BaHEDsLTyGNBFe
+diXvRErrGF4GtFpe8L+z7BczDhROkJqp1aZYCOFqgVAXg6YDSp/g9z6zZhtJWfT5
+ckBP4jT+ACI96tlR5hV0m2pS47i4VVdpwxtfJjxrn4ZDr3MZYWaG3xBpJcNpllqJ
+sQWXOibOphkiJwLq4umXWlJvoq+yvaupLAo9Kkt/dTgTXUNcfCucW2JGCbdhOL6w
+BabrS7hH8eL9oUsFCkkFDtRJPwO2x/bvucoKMDGz4QKBgQDMQsilNFRHgYCGif/J
+7qXctoWwZ0qnXHAW+2VUCJD61dAiXK10kJ6jNerEN8F3IKihrzSZr2vSNGWqDy5r
+uEwJqeTF1dLy/ncQyOpRn8QVaX9eBVKWtEEdiFDUXt2X+n6sIlmEJx+6EeZz4Iwj
+y+qqtrnX13XA+44Rndi5Eq3w9QKBgQDKIjbbJ6ecl5qGjbS+8egvJpGrtMCArPjx
+DM+bJMqmeCKnwDL/rRgmYSJpDUUbA1EcP0Ncsl/05aLVbBLBEr5CQlnH5CcK8yMR
+WxdxaN0O2W+r8GrnETeE4ep16MCuaF4NIxcENuhG2WX0W7RjfVmmW90wIOoN0JX+
+3/W6dCByCQKBgQDDPOpwDk6ocn4ZGvqlVziueL/cVz6iLdbuAKlf4zhAqfJhhdg9
+3KXlNvoJR4nihhLpSICsjWIv7+lk3VHvoJ79dai3+KPDo7rHDmP6VQ2lscsOYWQJ
+rI243rzz4SFJzSMbAVIy4PqQbd+qzuzkolrRhgqo5sclCM1IxWmLrPEZqQKBgE5f
+08tH5eqGsejIGzQKUg+uMb9VF2sNJn04jWrHajf/ztgiYuPV9s4yzYfUGF5v+8wr
+D3BqzWAEhg2gmOj53oGMfolOAoFxYsCBBGb51PTEBFOzpY+wkklY23Maa1N0rjsD
+xxHgRFHsS2bjA9+ro84oQmw95uKyZOZtajcAffAZAoGAQX5VOQYXO8+EGeyxEkNc
+UCHZxjvr22t2aq2eZKth0LgiVhrieJSmu39+GkTSag2bd2hsM0vWCBK8FKEP/Uab
+idWmmt/2JwcBrGsnUMbGXfNoSCQplrrcwWqmhYGYnBh1hqLg2ag1cmVXuYLgX6oW
+UUqXD8R4lHAXsZ1+MbLPfog=
+-----END PRIVATE KEY-----
+
+----------------------------------------
+
+        |-- cert.pem
+
+----------------------------------------
+Content of cert.pem:
+
+-----BEGIN CERTIFICATE-----
+MIIDPDCCAiQCCQCOCDXtP1qBATANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJV
+UzELMAkGA1UECAwCTlkxCzAJBgNVBAcMAk5ZMQswCQYDVQQKDAJOWTELMAkGA1UE
+CwwCTlkxHTAbBgkqhkiG9w0BCQEWDnRvbnlAZ21haWwuY29tMB4XDTI0MDkwMTE3
+MDczMVoXDTI1MDkwMTE3MDczMVowYDELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAk5Z
+MQswCQYDVQQHDAJOWTELMAkGA1UECgwCTlkxCzAJBgNVBAsMAk5ZMR0wGwYJKoZI
+hvcNAQkBFg50b255QGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKFH/vX0U9sO8X4/lX6iT6M/h9szoEtIOKnaO4fiCVmLH6USIn8dxaZM
+6GRfgFgzARl1XN/AtY0ID1EyIvGh7TMzSJuzytE7OEdZqPctR3csAUt0Zjl0hpoc
+Yw7zMNsJFl3y/eFR+y1bTpr9gNhVepoHDbxgLj8p/IZiIEvgaxgekCALm/dFzt7i
+xQvqw4ONPHrPsAahRKMtfvtZTdvSZoMeFlqYvQ9SNsT6ihAtQu8XcWxiaU2g/qNz
+Nk+8vnYE/FJOlFrZ5TftBtQp/s3BeCK4H6RxY3KqHmmOPlTOIaWuq5Ncca3ZqgsI
+n9q0zOmVxdr951WN2ZRO4g66wkAKkp0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+Q/oPsIkrhgJHdeIGbR9TQSJqZXLG0TM0plPADMMuVe+PmyQNgmUADCmk/K2ETqpf
+r5vwFDeHRSL0LXFUKZVcdfD7lFyIh3IVe6PGsOq+DfoCxV4PqDZfBFItPJc28SR5
+PzTfdwfd1hIK99Sqongdqgy0zfnzz3ko3cWT15fQWEc0i78JaMh7YgwzMeNH/6SI
+pDWt1TCPOjHfUAKNGTpamUZt1Q1bm+Tr1glg5kGNcZF5be4HK4Ab+YCQ36Pdxu0E
+TrvEXCOIeEI/X+Kn5cN+/AstcrooywI0jP5Ul3lvW1mxVCW3Ju16IMtrFKQLVnXp
+M599gTcd+cofSW800sEFIQ==
+-----END CERTIFICATE-----
+
+----------------------------------------
+
+        |-- utils
+            |-- docker_containers.py
+
+----------------------------------------
+Content of docker_containers.py:
+
+import docker
+
+# Initialize the Docker client
+client = docker.from_env()
+
+def get_running_container_names():
+    # Retrieve a list of all running containers
+    containers = client.containers.list(all=False)  # all=False is default and could be omitted for brevity
+    # Extract and return the names of these containers
+    container_names = []
+    for container in containers:
+        if "worker_" in container.name:
+            container_names.append(container.name)
+    return container_names
+
+def get_urls_of_running_containers():
+    """
+    Retrieve URLs for all running Docker containers that have exposed ports.
+
+    Returns:
+    list: A list of strings containing the URLs of the containers.
+    """
+    client = docker.from_env()  # Create a Docker client using default configuration
+    containers = client.containers.list()  # List only running containers
+    urls = []
+
+    # Iterate over each container and fetch URLs based on exposed ports
+    for container in containers:
+        ports = container.attrs['NetworkSettings']['Ports']
+        for container_port, mappings in ports.items():
+            if mappings is not None:
+                for mapping in mappings:
+                    # Assuming localhost; replace 'localhost' with your specific host if necessary
+                    url = f"http://localhost:{mapping['HostPort']}"
+                    if 'http://localhost:500' in url:
+                        urls.append(url)
+
+    return urls
+
+# Print the names of all currently running containers
+print(get_running_container_names())
+print(get_urls_of_running_containers())
+----------------------------------------
+
+            |-- fake_data.py
+
+----------------------------------------
+Content of fake_data.py:
+
+import faker
+
+faker  = faker.Faker()
+
+def fake_data_gen():
+    return {
+        "name": faker.name(),
+        "address": faker.address(),
+        "email": faker.email(),
+        "date_of_birth": str(faker.date_of_birth()),
+        "phone_number": faker.phone_number(),
+        "job": faker.job(),
+        "company": faker.company(),
+        "text": faker.text()
+    }
+
+print(fake_data_gen())
+----------------------------------------
+
+            |-- test_connection.py
+
+----------------------------------------
+Content of test_connection.py:
+
+import requests
+
+def check_worker_endpoints(worker_urls, timeout=5):
+    statuses = {}
+    for url in worker_urls:
+        try:
+            response = requests.get(url, timeout=timeout)  # Sending a GET request to the worker endpoint
+            if response.status_code == 200:
+                statuses[url] = 'active'
+            else:
+                statuses[url] = f'inactive (status code: {response.status_code})'
+        except requests.exceptions.RequestException as e:
+            statuses[url] = f'inactive (error: {str(e)})'
+    return statuses
+
+# Example URLs of worker endpoints
+worker_urls = [
+    'http://localhost:5001',
+    "http://localhost:5002",
+    "http://localhost:5003"
+]
+
+# Checking the status of each worker
+worker_statuses = check_worker_endpoints(worker_urls)
+for url, status in worker_statuses.items():
+    print(f"Endpoint: {url}, Status: {status}")
+
+----------------------------------------
+
+            |-- __init__.py
+
+----------------------------------------
+Content of __init__.py:
+
+
+----------------------------------------
+
+            |-- load_balancing.py
+
+----------------------------------------
+Content of load_balancing.py:
+
+from utils.docker_containers import get_running_container_names
+import requests
+from utils.fake_data import fake_data_gen
+import threading
+from flask import Flask, jsonify, request
+import time
+import docker
+import logging
+import queue
+import collections
+
+app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
+
+
+count = 0
+
+def round_robin():
+    global count
+    container_names = get_running_container_names()
+    if not container_names:
+        return None
+    next_server = container_names[count % len(container_names)]
+    count += 1
+    return next_server
+
+class TaskManager:
+    _lock = threading.Lock()
+    _instance = None
+
+    def __new__(cls):
+        with cls._lock:
+            if cls._instance is None:
+                cls._instance = super(TaskManager, cls).__new__(cls)
+                cls._instance.worker_states = {f"worker_{i+1}": "inactive" for i in range(5)}
+                cls._instance.last_active_times = {f"worker_{i+1}": time.time() for i in range(5)}
+                cls._instance.request_history = collections.defaultdict(lambda: collections.deque(maxlen=5))
+                cls._instance.task_queue = queue.Queue()
+                cls._instance.client = docker.from_env()
+                cls._instance.base_port = 5001
+                cls._instance.limit_try = 0
+                cls._instance.idle_time = 60
+                cls._instance.successful_task = 0
+                cls._instance.task_list_duplicate = []
+                cls._instance.task_list = []
+                cls._instance._initialize_workers()
+                cls._instance._initialize_status_checker()
+                cls._instance._initialize_idle_checker()  # Initialize the idle checker
+        return cls._instance
+
+    def _initialize_workers(self):
+        for _ in range(3):  # Creating three worker threads for improved concurrency
+            thread = threading.Thread(target=self._process_tasks)
+            thread.daemon = True
+            thread.start()
+
+    def _initialize_status_checker(self):
+        status_checker_thread = threading.Thread(target=self._check_worker_status)
+        status_checker_thread.daemon = True
+        status_checker_thread.start()
+
+    def _initialize_idle_checker(self):
+        idle_checker_thread = threading.Thread(target=self._check_idle_workers)
+        idle_checker_thread.daemon = True
+        idle_checker_thread.start()
+
+    def _check_worker_status(self):
+        while True:
+            app.logger.info("Checking worker status...")
+            # List to track active workers
+            active_workers = [w for w, state in self.worker_states.items() if state == 'active']
+            #app.logger.info(f"Active workers: {active_workers}, Last active times: {self.last_active_times[active_workers[0]]}")
+            # If there are no active workers and the total count of workers is less than 5
+            if not active_workers and len(get_running_container_names()) < 5:
+                if len(get_running_container_names()) > 0:
+                    app.logger.info("No active workers found. Attempting to create new worker.")
+                    name = len(get_running_container_names()) + 1
+                    self.create_workers(1, name)
+                    app.logger.info(f"All workers are inactive. Attempting to create new worker: worker_{name}")
+
+            # Additionally, handle scenario where all workers are inactive but the max limit hasn't been reached
+            elif all(state != 'active' for state in self.worker_states.values()) and len(self.worker_states) < 5:
+                name = len(self.worker_states) + 1
+                self.create_workers(1, name)
+                app.logger.info(f"All workers are inactive but not at max capacity. Creating new worker: worker_{name}")
+
+            time.sleep(2)  # Adjusted to 10 seconds for better system performance
+
+    def _process_tasks(self):
+        while True:
+            try:
+                task_data = self.task_queue.get(timeout=5)  # Adjust timeout to reduce load
+                if not self.assign_task(task_data):
+                    time.sleep(1)  # Adding delay before re-queuing
+                    self.task_queue.put(task_data)
+            except queue.Empty:
+                continue
+
+    def _check_idle_workers(self):  # Idle time limit in seconds
+        while True:
+            current_time = time.time()
+            running_containers = get_running_container_names()  # Get currently running container names
+            with self._lock:
+                for worker, last_active in list(self.last_active_times.items()):
+                    if (current_time - last_active > self.idle_time and
+                        worker in running_containers):  # Ensure worker is still running
+                        self.delete_worker(worker)
+                time.sleep(1)
+
+    def delete_worker(self, worker):
+        try:
+            container = self.client.containers.get(worker)
+            container.stop()
+            container.remove()
+            app.logger.info(f"Deleted idle worker: {worker}")
+            self.worker_states.pop(worker, None)
+            # Do not clear history here, allowing it to persist
+        except docker.errors.NotFound:
+            app.logger.warning(f"Worker {worker} not found for deletion.")
+        except Exception as e:
+            app.logger.error(f"Error deleting worker {worker}: {e}")
+
+    def assign_task(self, task_data):
+        for worker_id, state in self.worker_states.items():
+            if state == 'active':
+                if self.send_task(task_data, worker_id):
+                    return True
+        return False
+
+    def send_task(self, task_data, worker):
+        url = f'http://{worker}:8110/receive_data'
+        try:
+            response = requests.post(url, json=task_data, timeout=5)
+            if response.status_code == 200 and response.json().get('received'):
+                self.successful_task += 1
+                self.request_history[worker].append(task_data)  # Storing without the time to simplify the example
+                self.last_active_times[worker] = time.time()
+                return True
+            else:
+                self.update_worker_state(worker, 'inactive')
+        except requests.exceptions.RequestException as e:
+            app.logger.error(f"Error sending task to {worker}: {e}")
+            self.update_worker_state(worker, 'error')
+        return False
+
+    def update_worker_state(self, worker_id, state):
+        self.worker_states[worker_id] = state
+
+    def get_worker_state(self, worker_id):
+        return self.worker_states.get(worker_id, "unknown")
+
+    def load_task(self, data):
+        self.task_queue.put(data)
+        self.task_list_duplicate.append(data)
+
+    def create_workers(self, num_workers, name=None):
+        with self._lock:
+            current_workers = get_running_container_names()
+            if len(current_workers) >= 5:
+                app.logger.info("Maximum number of workers reached. No more workers will be created.")
+                return {}
+
+            workers = {}
+            for i in range(num_workers):
+                if name:
+                    container_name = f"worker_{name}"
+                    port = self.base_port + len(current_workers) + i  # Adjusted port assignment
+                else:
+                    container_name = f"worker_{i+ 1}"
+                    port = self.base_port  + i
+
+                # Check if the container already exists and is running
+                if container_name in current_workers:
+                    app.logger.info(f"Worker {container_name} already exists and is running. Skipping creation.")
+                    self.worker_states[container_name] = "active"  # Update the state if necessary
+                    continue
+                app.logger.info(f"Creating worker {container_name}")
+                try:
+                    container = self.client.containers.run(
+                        "worker_image",
+                        detach=True,
+                        ports={'8110/tcp': port},
+                        environment={'NODE_ID': f'node_{len(current_workers) + i + 1}', 'PORT': '8110'},
+                        name=container_name,
+                        hostname=container_name,
+                        network='abc-net',
+                        labels={'com.docker.compose.project': "distributedsessionnet"}
+                    )
+                    workers[container_name] = f'http://localhost:{port}'
+                    app.logger.info(f"Worker {container_name} created successfully.")
+                    time.sleep(1)  # Wait for the worker to start
+                    self.worker_states[container_name] = "active"
+                    self.last_active_times[container_name] = time.time()
+                    current_workers.append(container_name)
+                except docker.errors.APIError as e:
+                    app.logger.error(f"Failed to create worker {container_name}: {e}")
+
+            return workers
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
+----------------------------------------
+
+            |-- tets.py
+
+----------------------------------------
+Content of tets.py:
+
+import docker
+
+def get_worker_ip_map():
+    client = docker.from_env()
+    containers = client.containers.list(filters={"label": "com.docker.compose.project=distributedsessionnet"})
+    worker_ip_map = {}
+
+    for container in containers:
+        container_name = container.name
+        # Skip the central application container
+        if "central" not in container_name:
+            container_details = container.attrs
+            ip_address = container_details['NetworkSettings']['Networks']['abc-net']['IPAddress']
+            worker_ip_map[container_name] = ip_address
+
+    return worker_ip_map
+
+# Example usage:
+worker_ips = get_worker_ip_map()
+print(worker_ips)
+
+
+----------------------------------------
+
+        |-- static
+            |-- styles.css
+
+----------------------------------------
+Content of styles.css:
+
+/* General body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f7; /* Apple-like soft light gray background */
+    color: #1d1d1f; /* Dark gray for text, slightly softer than black */
+    text-align: center; /* Centering all text elements by default */
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+    font-weight: 600; /* Slightly bolder for a stronger hierarchy */
+    text-align: center; /* Explicitly center the heading */
+}
+
+/* Buttons and Select dropdown styling */
+select, button {
+    margin: 5px;
+    padding: 12px 18px; /* Comfortable padding for interaction */
+    border-radius: 8px; /* Apple uses rounded corners */
+    border: none; /* Remove borders for a cleaner look */
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Align items horizontally */
+    background-color: #007aff; /* Apple's signature blue */
+    color: #ffffff; /* White text for contrast */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #005bb5; /* Slightly darker on hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Soft shadow for depth */
+}
+
+select {
+    background-color: #f5f5f7; /* Matching the background color for consistency */
+    color: #1d1d1f;
+    transition: border-color 0.2s ease;
+}
+
+select:focus {
+    border-color: #007aff; /* Blue border on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+/* Container for grouped actions */
+.action-group {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 15px;
+    border-radius: 12px;
+    display: flex; /* Ensure all items are in a row */
+    align-items: center; /* Align vertically */
+    justify-content: center; /* Centering horizontally */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+}
+
+/* Worker status styles */
+.worker-status-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center containers horizontally */
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.worker-status {
+    flex: 0 0 30%; /* Consistent sizing */
+    margin: 1.5%;
+    padding: 20px;
+    border: 1px solid #d1d1d6; /* Light gray border */
+    border-radius: 12px;
+    background-color: #ffffff;
+    min-height: 160px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* Smooth interactions */
+}
+
+.worker-status:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* Slightly deeper shadow on hover */
+    transform: translateY(-2px); /* Lift on hover for a more dynamic feel */
+}
+
+/* Active worker highlighting */
+.active-yes {
+    color: #34c759; /* Apple's green for success */
+    font-weight: 600;
+}
+
+.active-no {
+    color: #ff3b30; /* Apple's red for failure */
+    font-weight: 600;
+}
+
+/* List styles for active workers */
+#activeWorkers ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#activeWorkers li {
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d6;
+}
+
+#activeWorkers li:last-child {
+    border-bottom: none;
+}
+
+.task-info {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f2f2f7; /* Light gray background for subtle contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow for a gentle touch */
+}
+
+/* Task Metrics Container styles */
+.task-metrics-container {
+    display: flex;
+    justify-content: center; /* Center containers horizontally */
+    margin: 20px 0;
+    gap: 20px; /* Evenly spaced gaps between metric boxes */
+}
+
+.metric-box {
+    flex-grow: 1; /* Each box will grow equally */
+    text-align: center;
+    padding: 15px; /* Slightly reduced padding for a more compact look */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.metric-box:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15); /* Lift effect on hover */
+    transform: translateY(-2px);
+}
+
+.metric-box h4 {
+    margin-bottom: 10px; /* Reduced margin for a tighter layout */
+    color: #1d1d1f;
+    font-size: 16px; /* Slightly smaller font size for heading */
+    font-weight: 600;
+}
+
+.metric-box p {
+    font-size: 18px; /* Slightly smaller font size for the metric values */
+    font-weight: bold;
+    color: #007aff; /* Apple's signature blue */
+}
+/* Checkbox styling */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid #007aff; /* Add a blue border */
+    border-radius: 4px; /* Rounded corners for a softer look */
+    background-color: #f5f5f7; /* Match the background color for consistency */
+    appearance: none; /* Remove default checkbox styling */
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease; /* Smooth transitions */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007aff; /* Fill background with blue when checked */
+    border-color: #005bb5; /* Darken border color when checked */
+}
+
+input[type="checkbox"]:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 4px #007aff; /* Add a subtle glow on focus */
+}
+.worker-details {
+    margin-bottom: 20px;
+}
+
+/* Worker Details Table Styles */
+.worker-details {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for each worker's details section */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners like Apple design */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.worker-status-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin-top: 10px;
+}
+
+.worker-status-table th, .worker-status-table td {
+    border-bottom: 1px solid #d1d1d6; /* Light gray border for each row */
+    padding: 8px;
+    text-align: left;
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+.worker-status-table th {
+    background-color: #f0f0f0; /* Light gray background for header */
+    color: #1d1d1f; /* Dark gray text color */
+}
+
+.worker-status-table td {
+    background-color: #fff; /* White background for table cells */
+}
+
+.worker-status-table tr:last-child td {
+    border-bottom: none; /* Removes bottom border from the last row */
+}
+
+.worker-status-table tr:hover {
+    background-color: #f5f5f7; /* Light gray background on row hover for better interaction feedback */
+}
+
+/* Enhance appearance of headers to align more with iOS style */
+.worker-status-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase; /* Making header text uppercase for better visibility */
+    letter-spacing: 0.05em; /* Adding some letter spacing for aesthetics */
+}
+
+/* Additional styles to enhance readability and aesthetics */
+.worker-status-table td {
+    color: #666; /* Darker text for better readability */
+    line-height: 1.5; /* Increased line height for more readable text */
+}
+
+/* Main container for side-by-side layout */
+.main-container {
+    display: flex; /* Display the sections side by side */
+    justify-content: space-between; /* Add some space between the sections */
+    gap: 20px; /* Optional: gap between the two sections */
+    margin-top: 20px;
+}
+
+/* Style for each section */
+.manage-workers-section, .status-send-data-section {
+    flex: 1; /* Make both sections take equal space */
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px; /* Add some padding */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Ensure the sections don't shrink too much */
+.manage-workers-section, .status-send-data-section {
+    min-width: 300px; /* Prevent sections from shrinking too much */
+}
+
+/* Additional styling for small screens */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+}
+
+#refreshButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+    color: #007aff; /* Styling button color to match your theme */
+}
+
+#refreshButton:hover {
+    color: #005bb5; /* Darker blue on hover for visual feedback */
+}
+
+/* Buttons and Select dropdown styling */
+select, button {
+    width: 180px; /* Ensure same width for both */
+    height: 38px; /* Uniform height */
+    line-height: 24px; /* Adjust line height to center text vertically */
+    margin: 5px;
+    padding: 7px 12px; /* Adjusted padding for consistency */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #007aff; /* Add border to make select visually similar to button */
+    font-size: 16px; /* Consistent font size */
+    cursor: pointer;
+    display: inline-block; /* Align items horizontally */
+    background-color: #007aff; /* Consistent background for buttons */
+    color: #ffffff; /* White text for contrast */
+    transition: all 0.2s ease; /* Smooth transitions for hover effects */
+}
+
+button {
+    background-color: #007aff; /* Apple's signature blue */
+    border: 1px solid #007aff; /* Consistent border style */
+}
+
+button:hover {
+    background-color: #005bb5; /* Slightly darker on hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Soft shadow for depth */
+}
+
+select {
+    background-color: #ffffff; /* White background for select */
+    color: #1d1d1f; /* Dark color for text */
+}
+
+select:hover {
+    border-color: #005bb5; /* Darker border on hover for select */
+}
+
+/* Flexbox setup for aligning button and select */
+.button-select-pair {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* Additional customizations may be necessary depending on other styles in your CSS or specific layout requirements. */
+/* Flexbox setup for aligning button and select within their pairs */
+.button-select-pair {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    margin: 10px 0;            /* Add vertical margin for spacing */
+}
+
+.manage-workers-section {
+    display: flex;
+    flex-direction: column;   /* Stack child elements vertically */
+    align-items: center;      /* Align child elements in the center */
+    justify-content: center;  /* Center content vertically */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Adjust the overall alignment and spacing in the main container */
+.main-container {
+    display: flex;
+    justify-content: space-around; /* Space around to add space between the two sections */
+    align-items: start;            /* Align items at the start of the container */
+    flex-wrap: wrap;               /* Allow items to wrap in smaller screens */
+    margin: 20px;                  /* Outer margin for spacing */
+    padding: 20px;                 /* Padding inside the container */
+}
+
+/* Ensure that the container elements are also centered */
+.status-send-data-section, .manage-workers-section {
+    width: 45%;                    /* Set a specific width for each section */
+    margin: 10px;                  /* Margin around each section for spacing */
+    padding: 20px;                 /* Padding inside each section */
+    display: flex;
+    flex-direction: column;        /* Stack the contents vertically */
+    align-items: center;           /* Align items in the center */
+    justify-content: space-between;/* Space the internal items evenly */
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;   /* Stack sections vertically on small screens */
+    }
+    .status-send-data-section, .manage-workers-section {
+        width: 100%;              /* Each section takes full width on small screens */
+    }
+}
+
+----------------------------------------
+
+        |-- app.py
+
+----------------------------------------
+Content of app.py:
+
+from flask import Flask, render_template, jsonify, request
+import docker
+from utils.docker_containers import get_running_container_names
+from utils.fake_data import fake_data_gen
+from utils.load_balancing import TaskManager
+import requests
+import logging
+
+app = Flask(__name__)
+client = docker.from_env()
+app.logger.setLevel(logging.INFO)
+
+@app.after_request
+def after_request(response):
+    """Set CORS headers for every response."""
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
+
+@app.route('/')
+def index():
+    return render_template('create_workers.html')
+
+@app.route('/create_workers', methods=['POST'])
+def create_workers():
+    num_workers = request.json.get('num_workers', 2)
+    task_manager = TaskManager()
+    workers = task_manager.create_workers(num_workers)
+    response = {'message': f'{num_workers} workers created', 'workers': workers}
+    return jsonify(response)
+
+@app.route('/kill_worker', methods=['POST'])
+def kill_worker():
+    worker_name = request.json['worker_name']
+    try:
+        container = client.containers.get(worker_name)
+        container.stop()
+        container.remove()
+        app.logger.info(f"Worker {worker_name} killed")
+        return jsonify({'message': f'{worker_name} successfully killed'}), 200
+    except Exception as e:
+        return jsonify({'message': f'Error killing {worker_name}: {str(e)}'}), 500
+
+@app.route('/kill_all_workers', methods=['POST'])
+def kill_all_workers():
+    containers = client.containers.list()  # List all containers
+    for container in containers:
+        if "worker_" in container.name:
+            try:
+                container.stop()
+                container.remove()
+            except Exception as e:
+                return jsonify({'message': f'Error killing {container.name}: {str(e)}'}), 500
+    return jsonify({'message': 'All workers have been killed'}), 200
+
+@app.route('/workers', methods=['GET'])
+def workers():
+    jsonn = get_running_container_names()
+    return jsonify(jsonn)
+
+@app.route('/worker_status/<worker_name>', methods=['GET'])
+def worker_status(worker_name):
+    task_manager = TaskManager()  # Ensure this uses your existing TaskManager instance
+    try:
+        # Assuming the worker status includes whether it's active and its last response etc.
+        response = requests.get(f"http://{worker_name}:8110/status")
+        response_json = response.json()
+        # Add the request history to the JSON response
+        response_json['request_history'] = list(task_manager.request_history[worker_name])
+        return jsonify(response_json), response.status_code
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/worker_status2/<worker_name>', methods=['GET'])
+def worker_status2(worker_name):
+    task_manager = TaskManager()  # Singleton instance of TaskManager
+    try:
+        # Retrieve the worker's history from the defaultdict
+        worker_history = task_manager.request_history[worker_name]
+        #app.logger.info(f"Worker history for {worker_name}: {worker_history}")
+
+        # Process the history to extract the task data
+        history_data = [
+            {
+                'name': entry['name'],
+                'email': entry['email'],
+                'job': entry['job'],
+                'address': entry['address'],
+                'phone_number': entry['phone_number'],
+                'company': entry['company'],
+                'text': entry['text']
+            } for entry in worker_history
+        ]
+
+        return jsonify({
+            'active': task_manager.get_worker_state(worker_name) == 'active',
+            'request_history': history_data
+        }), 200
+    except Exception as e:
+        app.logger.error(f"Error in worker_status2: {str(e)}")  # Log the error
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/workers_get', methods=['GET'])
+def get_workers():
+    task_manager = TaskManager()  # Assuming singleton pattern
+    workers = get_running_container_names()
+    active_count = sum(1 for w in workers if task_manager.get_worker_state(w) == 'active')
+    return jsonify({
+        'activeWorkers': active_count,
+        'successfulTasks': task_manager.successful_task,
+        'taskListDuplicateCount': len(task_manager.task_list_duplicate),
+        'workers': workers
+    })
+
+
+@app.route('/idle_time', methods=['POST'])
+def idle_time():
+    data = request.json
+    app.logger.info(f"Data received: {data}")
+    idle_time = data.get('idletime')
+    app.logger.info(f"Idle Time: {idle_time}")
+    task_manager = TaskManager()  # Assuming singleton pattern
+    task_manager.idle_time = idle_time
+    app.logger.info(f"Idle Time set to {task_manager.idle_time}")
+    return jsonify({"success": True, "message": f"Workers will get deleted after remaining idle for {idle_time} sec"}), 200
+
+
+@app.route('/send_fake_data', methods=['POST'])
+def send_fake_data():
+    try:
+        fake_data = fake_data_gen()
+        task_manager = TaskManager()
+        task_manager.load_task(fake_data)
+        response = 'response'
+        return jsonify(response)
+    except requests.exceptions.RequestException as e:
+        return jsonify({"success": False, "message": str(e)}), 500
+
+@app.route('/update_status', methods=['POST'])
+def status():
+    data = request.json
+    worker_id = data.get('name')
+    state = data.get('active')
+    state = "active" if state in [True, "True"] else state
+
+    task_manager = TaskManager()
+    task_manager.update_worker_state(worker_id, state)
+    return jsonify({"success": True, "message": "Worker state updated"}), 200
+
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=7110)
+
+----------------------------------------
+
+        |-- templates
+            |-- create_workers.html
+
+----------------------------------------
+Content of create_workers.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create and Manage Workers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg"> <!-- Example: Python icon -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Poll the backend every 5 seconds to fetch the latest worker status
+            // setInterval(function() {
+            //     fetchWorkerStatus();
+            // }, 5000);
+
+            document.getElementById('startButton').onclick = function() {
+                event.preventDefault();
+                var numWorkers = document.getElementById('numWorkersSelect').value;
+                $.ajax({
+                    url: '/create_workers',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({num_workers: parseInt(numWorkers, 10)}),
+                    success: function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after creation
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Error creating workers: " + xhr.responseText);
+                    }
+                });
+            };
+
+            document.getElementById('idleButton').onclick = function() {
+                event.preventDefault();
+                var idle_time = document.getElementById('idle_time_select').value;
+                $.ajax({
+                    url: '/idle_time',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({idletime: parseInt(idle_time, 10)}),
+                    success: function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after creation
+                    },
+                    error: function(xhr, status, error) {
+                        alert("Error creating workers: " + xhr.responseText);
+                    }
+                });
+            };
+
+            document.getElementById('killButton').onclick = function() {
+                event.preventDefault();
+                var selectedWorker = document.getElementById('workerSelect').value;
+                if (selectedWorker === "Select All") {
+                    $.post('/kill_all_workers', function(response) {
+                        document.getElementById("statusMessage").textContent = response.message;
+                        loadWorkers(); // Refresh worker list after killing
+                    }).fail(function(xhr, status, error) {
+                        alert("Error killing all workers: " + xhr.responseText);
+                    });
+                } else {
+                    $.ajax({
+                        url: '/kill_worker',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({worker_name: selectedWorker}),
+                        success: function(response) {
+                            document.getElementById("statusMessage").textContent = response.message;
+                            loadWorkers(); // Refresh worker list after killing
+                        },
+                        error: function(xhr, status, error) {
+                            alert("Error killing worker: " + xhr.responseText);
+                        }
+                    });
+                }
+            };
+
+            document.getElementById('refreshButton').addEventListener('click', function() {
+                fetchWorkerStatus();
+                loadWorkers();
+                fetchDetailedWorkerStatuses(); // Trigger getStatusButton functionality
+            });
+
+            document.getElementById('refreshButton2').addEventListener('click', function() {
+                fetchWorkerStatus();
+                loadWorkers();
+                fetchDetailedWorkerStatuses(); // Trigger getStatusButton functionality
+            });
+
+
+            // document.getElementById('getStatusButton').onclick = function() {
+            //     event.preventDefault();
+            //     fetchWorkerStatus(); // Manually get worker status
+            //     loadWorkers(); // Manually get worker list
+            //     fetchDetailedWorkerStatuses(); // Manually get detailed status
+            // };
+
+            document.getElementById('sendFakeDataButton').onclick = function() {
+                event.preventDefault();
+                $.post('/send_fake_data', function(response) {
+                    document.getElementById("statusMessage").textContent = "Fake data sent successfully!";
+                }).fail(function(xhr, status, error) {
+                    alert("Failed to send fake data: " + xhr.responseText);
+                });
+            };
+
+            // Fetch worker status from the backend
+        function loadWorkers() {
+            console.log('Fetching worker data... loadWorkers()');
+            $.getJSON('/workers_get', function(data) {
+                console.log('Data received:', data);  // Check what data is received
+
+                // Update metrics
+                document.getElementById('activeWorkers').textContent = data.activeWorkers;
+                document.getElementById('successfulTasks').textContent = data.successfulTasks;
+                document.getElementById('taskListDuplicates').textContent = data.taskListDuplicateCount;
+
+                var workerList = document.getElementById('activeWorkersList');
+                workerList.innerHTML = `<h3>Active Workers: ${data.activeWorkers}</h3>`;
+
+                // Clear existing options in the worker select dropdown for killing workers
+                var killWorkerSelect = document.getElementById('workerSelect');
+                killWorkerSelect.innerHTML = '';  // Clear existing options
+
+                // Check if there are workers and add options accordingly
+                if (data.workers && data.workers.length > 0) {
+                    if (data.workers.length > 1) {
+                        killWorkerSelect.add(new Option("Select All", "Select All"));
+                    }
+
+                    // Add new active workers to the kill dropdown
+                    data.workers.forEach(function(worker) {
+                        var option = new Option(worker, worker);
+                        killWorkerSelect.add(option);
+                        workerList.innerHTML += `<li>${worker}</li>`;  // Also update the worker list display
+                    });
+                } else {
+                    console.log('No workers found');
+                }
+            }).fail(function(jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.log("Request Failed: " + err);
+            });
+        }
+
+            function fetchWorkerStatus() {
+                console.log('Fetching worker status... fetchWorkerStatus()');
+                for (let i = 1; i <= 5; i++) {
+                    document.getElementById(`workerStatus${i}`).innerHTML = 'Not Active';
+                }
+
+                $.getJSON('/workers', function(workers) {
+                    let allPromises = [];
+
+                    workers.forEach(function(workerName, index) {
+                        let url = `/worker_status/${workerName}`;
+                        console.log(`Fetching status from: ${url}`);
+
+                        let fetchPromise = $.get(url, function(status) {
+                            let requestsHandled = status.requests_handled || 0;
+                            let totalRequests = 5;
+
+                            let content = `<div class='worker-info'>
+                                                <p><strong>Name:</strong> ${status.name}</p>
+                                                <p><strong>Active:</strong> ${status.active ? 'Yes' : 'No'}</p>
+                                                <p><strong>Requests Handled:</strong> ${requestsHandled} / ${totalRequests}</p>
+                                                <p><strong>Last Request:</strong> ${status.latest_request}</p>
+                                            </div>`;
+                            document.getElementById(`workerStatus${index + 1}`).innerHTML = content;
+                            if (requestsHandled >= totalRequests) {
+                                document.getElementById(`workerStatus${index + 1}`).innerHTML += '<p style="color: red;">Worker has reached the request limit.</p>';
+                            }
+
+                            return { worker_id: status.name, state: status.active };
+                        }).fail(function() {
+                            document.getElementById(`workerStatus${index + 1}`).innerHTML = 'Failed to load data';
+                        });
+
+                        //allPromises.push(fetchPromise);
+                    });
+
+                    Promise.all(allPromises).then(results => {
+                        results.forEach(result => {
+                            if (result) {
+                                $.ajax({
+                                    url: '/update_status',
+                                    type: 'POST',
+                                    contentType: 'application/json',
+                                    data: JSON.stringify(result),
+                                    success: function(response) {
+                                        console.log('Task Manager Update Response:', response);
+                                    },
+                                    error: function(xhr, status, error) {
+                                        console.log('Error updating Task Manager:', xhr.responseText);
+                                    }
+                                });
+                            }
+                        });
+                    });
+                });
+            }
+
+            function fetchDetailedWorkerStatuses() {
+                console.log('Fetching detailed worker statuses... fetchDetailedWorkerStatuses()');
+                $('#detailedWorkerStatusContainer').html('<p>Loading detailed statuses...</p>');
+
+                // Define the list of all workers
+                const workers = ['worker_1', 'worker_2', 'worker_3', 'worker_4', 'worker_5'];
+
+                let content = '<h2>Detailed Worker Statuses</h2>';
+
+                // Iterate through the predefined list of workers
+                workers.forEach(function(workerName) {
+                    let url = `/worker_status2/${workerName}`;
+
+                    $.get(url, function(status) {
+                        let tableContent = `<div class='worker-details'>
+                                            <h3>Status for ${workerName} - Active: ${status.active ? 'Yes' : 'No'}</h3>
+                                            <table class='worker-status-table'>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>Job</th>
+                                                    <th>Address</th>
+                                                    <th>Phone Number</th>
+                                                    <th>Company</th>
+                                                    <th>Text</th>
+                                                </tr>`;
+                        status.request_history.forEach(function(request) {
+                            tableContent += `<tr>
+                                                <td>${request.name}</td>
+                                                <td>${request.email}</td>
+                                                <td>${request.job}</td>
+                                                <td>${request.address}</td>
+                                                <td>${request.phone_number}</td>
+                                                <td>${request.company}</td>
+                                                <td>${request.text}</td>
+                                            </tr>`;
+                        });
+                        tableContent += '</table></div>';
+                        content += tableContent;
+
+                        $('#detailedWorkerStatusContainer').html(content);
+                    }).fail(function() {
+                        $('#detailedWorkerStatusContainer').append(`<div><p>Failed to load data for ${workerName}</p></div>`);
+                    });
+                });
+            }
+
+        });
+    </script>
+</head>
+<body>
+    <h1>Redis Pro Maxx</h1>
+
+    <!-- Main Container for side-by-side layout -->
+    <div class="main-container">
+        <!-- Manage Worker Section -->
+        <div class="manage-workers-section", style="position: relative;">
+            <button id="refreshButton" style="position: absolute; top: 10px; right: 10px; border: none; background: none; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <h2>Manage Workers</h2>
+            <div class="button-select-pair">
+                <button id="startButton">Create Workers</button>
+                <select id="numWorkersSelect">
+                    <option value="1">1 Worker</option>
+                    <option value="2">2 Workers</option>
+                    <option value="3">3 Workers</option>
+                    <option value="4">4 Workers</option>
+                    <option value="5">5 Workers</option>
+                </select>            </div>
+
+            <div class="button-select-pair">
+                <button id="idleButton">Idle Time</button>
+                <select id="idle_time_select">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+
+            <div class="button-select-pair">
+                <button id="killButton">Kill Worker</button>
+                <select id="workerSelect">  <!-- Changed ID -->
+                    <!-- Options will be dynamically added here -->
+                </select>
+            </div>
+
+            <p id="statusMessage">Ready to create or kill workers.</p>
+            <!-- Task Metrics Container -->
+            <div class="task-metrics-container">
+                <div class="metric-box">
+                    <h4>Active Workers:</h4>
+                    <p id="activeWorkers">0</p>
+                </div>
+                <div class="metric-box">
+                    <h4>Successful Tasks:</h4>
+                    <p id="successfulTasks">0</p>
+                </div>
+                <div class="metric-box">
+                    <h4>Total Tasks:</h4>
+                    <p id="taskListDuplicates">0</p>
+                </div>
+            </div>
+            <div id="activeWorkersList"></div>
+        </div>
+
+        <!-- Status and Send Data Section -->
+        <div class="status-send-data-section", style="position: relative;">
+            <button id="refreshButton2" style="position: absolute; top: 10px; right: 10px; border: none; background: none; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+            <!-- <button id="getStatusButton">Get Worker Status</button> -->
+            <button id="sendFakeDataButton">Send Fake Data </button>
+            <h2>Status and Send Data</h2>
+            <div class="worker-status-container">
+                <div id="workerStatus1" class="worker-status">No active worker</div>
+                <div id="workerStatus2" class="worker-status">No active worker</div>
+                <div id="workerStatus3" class="worker-status">No active worker</div>
+                <div id="workerStatus4" class="worker-status">No active worker</div>
+                <div id="workerStatus5" class="worker-status">No active worker</div>
+            </div>
+
+
+        </div>
+    </div>
+            <!-- Detailed Worker Status Container -->
+    <div id="detailedWorkerStatusContainer">
+        <h2>Detailed Worker Statuses</h2>
+        <div id="allDetailedStatuses"></div>
+    </div>
+</body>
+
+</html>
+
+----------------------------------------
+
+        |-- Dockerfile.central
+
+----------------------------------------
+Content of Dockerfile.central:
+
+# central-app/Dockerfile
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+COPY requirements.txt .
+# Set the working directory in the container
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    gcc \
+    libc-dev
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Make port 7110 available to the world outside this container
+EXPOSE 7110
+
+# Define environment variable
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=7110
+
+# Command to run the app
+CMD ["python", "app.py"]
+----------------------------------------
+
+    |-- node-app
+        |-- worker.py
+
+----------------------------------------
+Content of worker.py:
+
+# worker.py
+from flask import Flask, request, jsonify
+import os
+import requests
+import socket
+from flask_cors import CORS
+import logging
+import threading  # Import threading for handling timers
+from decouple import config  # Import the config function from decouple
+
+app = Flask(__name__)
+app.logger.setLevel(logging.INFO)
+CORS(app)
+
+latest_request_name = None
+count = 0
+status_worker = True
+reset_timer = None  # Global timer for resetting count
+central_app_ip = config('CENTRAL_APP_IP', default='localhost')
+
+def reset_worker_status():
+    app.logger.info("Resetting worker status...")
+    global count, status_worker
+    status_worker = True
+    count = 0  # Reset count to zero
+    # status_data = {
+    #     'name': socket.gethostname(),
+    #     'active': True,
+    #     "identifier": "reset"
+    # }
+    # response = requests.post('http://distributedsessionnet-central-1:7110/update_status', json=status_data)
+    # app.logger.info(f"Response from central app after updating the worker status: {response.json()}")
+
+@app.after_request
+def apply_csp(response):
+    response.headers["Content-Security-Policy"] = "upgrade-insecure-requests"
+    return response
+
+@app.route('/')
+def index():
+    return "Welcome to the Worker App my dear!"
+
+@app.route('/receive_data', methods=['POST'])
+def receive_data():
+    global latest_request_name, count, status_worker, reset_timer
+    # Process only if the worker is active
+    if status_worker:
+        data = request.json
+        app.logger.info(f"Received data: {data}")
+
+        if 'name' in data:
+            latest_request_name = data['name']
+            count += 1
+
+        # Check if count reached 2 and trigger status change
+        if count >= 5:
+            status_worker = False  # Set worker status to inactive immediately
+            app.logger.info("Worker status set to inactive")
+
+            # Send status to the central app
+            status_data = {
+                'name': socket.gethostname(),
+                'active': status_worker,
+            }
+            # Start a timer to reset the worker status after 10 seconds
+            if reset_timer is not None:
+                reset_timer.cancel()  # Cancel any existing timer
+            reset_timer = threading.Timer(30.0, reset_worker_status)
+            reset_timer.start()
+
+            # response = requests.get(central_app_ip +'/update_status', json=status_data)
+            # app.logger.info(f"Response from central app: {response.json()}")
+
+
+        return jsonify({"received": True, "data": data})
+
+    else:
+        app.logger.info("Worker is inactive; rejecting request.")
+        return jsonify({"received": False, "message": "Worker is not active"})
+
+
+@app.route('/status', methods=['GET'])
+def status():
+    global latest_request_name, count, status_worker
+    status_data = {
+        'name': socket.gethostname(),
+        'active': status_worker,
+        'requests_handled': count,
+        'latest_request': latest_request_name if latest_request_name else "No request received yet"
+    }
+    return jsonify(status_data)
+
+@app.route('/compute', methods=['POST'])
+def compute():
+    data = request.json
+    result = sum(data['numbers'])
+    return jsonify({'result': result, 'node_id': os.getenv('NODE_ID')})
+
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 8110))
+    app.run(debug=True, host='0.0.0.0', port=port)
+
+----------------------------------------
+
+        |-- requirements.txt
+
+----------------------------------------
+Content of requirements.txt:
+
+requests
+flask
+docker
+flask-socketio
+flask-cors
+APScheduler
+python-decouple
+
+----------------------------------------
+
+        |-- .env
+
+----------------------------------------
+Content of .env:
+
+CENTRAL_IP ="http://distributedsessionnet-central-1:7110"
+----------------------------------------
+
+        |-- Dockerfile.worker
+
+----------------------------------------
+Content of Dockerfile.worker:
+
+# node-app/Dockerfile.worker
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    build-essential \
+    gcc \
+    libffi-dev \
+    libssl-dev \
+    net-tools && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+
+
+# Make port 8110 available to the world outside this container
+EXPOSE 8110
+
+# Define environment variable
+ENV FLASK_APP=worker.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=8110
+
+# Command to run the app
+CMD ["python", "worker.py"]
+
+# docker build -f Dockerfile.worker -t worker_image .
+
+----------------------------------------
+
+    |-- .gitignore
+
+----------------------------------------
+Content of .gitignore:
+
+venv
+.env
+----------------------------------------
+
+    |-- .github
+        |-- workflows
+            |-- deploy.yml
+
+----------------------------------------
+Content of deploy.yml:
+
+name: Deploy to EC2 on Push
+
+on:
+  push:
+    branches:
+      - new_approach
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Temporary checks to ensure SSH key format is correct (remove after confirmation)
+    - name: Check SSH Key Format
+      run: |
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" | wc -l
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" | head -n 1
+
+    - name: Set up SSH Key and Known Hosts
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa 51.20.78.225 >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+
+    - name: Debug SSH connection
+      run: ssh -vvv ec2-user@51.20.78.225
+
+    - name: Deploy to EC2
+      run: |
+        rsync -avz --exclude '.git*' --delete ./ ec2-user@51.20.78.225:/home/ec2-user/DistributedSessionNet
+        ssh ec2-user@51.20.78.225 "bash /home/ec2-user/deploy_script.sh"
+
+----------------------------------------
+
+    |-- docker-compose.yml
+
+----------------------------------------
+Content of docker-compose.yml:
+
+version: '3.8'
+
+services:
+  central:
+    build:
+      context: ./central-app
+      dockerfile: Dockerfile.central
+    ports:
+      - "7110:7110"
+    volumes:
+      - ./central-app:/app
+      - /var/run/docker.sock:/var/run/docker.sock  # Allows Docker API access from the container
+    networks:
+      - abc-net
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_RUN_PORT=7110
+
+networks:
+  abc-net:
+    driver: bridge
+    external: true
+
+----------------------------------------
+
+    |-- Procfile
+
+----------------------------------------
+Content of Procfile:
+
+web: gunicorn central-app.app:app
+
+----------------------------------------
+
+|-- Directure
+    |-- directure.py
+
+----------------------------------------
+Content of directure.py:
+
+import os
+import sys
+
+def print_directory_structure(path, indent_level=0, ignore_list=None, write_mode=False, output_file=None):
+    # Get a list of all items (files and directories) in the given path
+    items = os.listdir(path)
+
+    if ignore_list is None:
+        ignore_list = []
+
+    for item in items:
+        if item in ignore_list:
+            continue  # Skip items that are in the ignore list
+
+        # Get the absolute path of the item
+        item_path = os.path.join(path, item)
+
+        # Prepare the formatted line for the directory structure
+        line = ' ' * indent_level + '|-- ' + item
+
+        # Print the item to the console
+        print(line)
+
+        # If write_mode is enabled, write the line to the output file
+        if write_mode and output_file:
+            output_file.write(line + "\n")
+
+            # If it's a file, also write its content to the output file
+            if os.path.isfile(item_path):
+                output_file.write("\n" + "-" * 40 + "\n")
+                output_file.write(f"Content of {item}:\n\n")
+                try:
+                    with open(item_path, 'r') as file:
+                        output_file.write(file.read())
+                except Exception as e:
+                    output_file.write(f"Error reading file {item}: {e}")
+                output_file.write("\n" + "-" * 40 + "\n\n")
+
+        # If the item is a directory, recursively call this function
+        if os.path.isdir(item_path):
+            print_directory_structure(item_path, indent_level + 4, ignore_list, write_mode, output_file)
+
+# Function to write both directory structure and file contents to a file
+def write_structure_and_contents(directory_path, ignore_list, output_filename):
+    with open(output_filename, 'w') as f:
+        # Write the directory structure and contents of files
+        f.write("Directory Structure and File Contents:\n\n")
+        print_directory_structure(directory_path, ignore_list=ignore_list, write_mode=True, output_file=f)
+
+# Get the list of command-line arguments
+args = sys.argv[1:]
+
+# Check if -w flag is present for writing output to a file
+write_mode = '-w' in args
+
+# If -w is present, remove it from args and get the filename to write
+if write_mode:
+    args.remove('-w')
+    output_filename = "directory_structure_and_contents.txt"
+
+# The remaining args are files and directories to ignore
+ignore_list = args
+
+# Specify the path of the directory you want to analyze
+directory_path = '/Users/atharvatonape/Desktop/Project'
+
+# If write_mode is enabled, write the structure and contents to the output file
+if write_mode:
+    write_structure_and_contents(directory_path, ignore_list, output_filename)
+    print(f"\nDirectory structure and contents written to {output_filename}")
+else:
+    # Just print the directory structure if -w flag is not provided
+    print_directory_structure(directory_path, ignore_list=ignore_list)
+
+----------------------------------------
+
