@@ -4,4 +4,5 @@
 Directure: A tool to explore and visualize directory structures.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
+from .directure import main
