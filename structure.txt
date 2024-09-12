@@ -1,3 +1,21 @@
+Directory Structure:
+
+|-- LICENSE
+|-- MANIFEST.in
+|-- README.md
+|-- setup.py
+|-- structure.txt
+|-- directure
+    |-- directure.py
+    |-- __init__.py
+
+
+File Contents:
+
+
+----------------------------------------
+Content of directure.py:
+
 import os
 import sys
 
@@ -133,3 +151,20 @@ def main():
 
 if __name__ == '__main__':
     main()
+----------------------------------------
+
+
+----------------------------------------
+Content of __init__.py:
+
+# directure/__init__.py
+
+"""
+Directure: A tool to explore and visualize directory structures.
+"""
+
+__version__ = "0.1.1"
+from .directure import main
+
+----------------------------------------
+
