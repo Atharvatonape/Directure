@@ -32,7 +32,6 @@ def print_directory_structure(path, indent_level=0, ignore_list=None, output_fil
                 # If it's not in the explore list, just show the directory name and move on
                 continue
 
-# Second function to append the contents of files
 def write_file_contents(path, ignore_list=None, output_file=None, full_explore_list=None):
     items = os.listdir(path)
 
@@ -48,14 +47,15 @@ def write_file_contents(path, ignore_list=None, output_file=None, full_explore_l
 
         item_path = os.path.join(path, item)
 
-        # Determine if the current directory or any parent directory matches the explore list
+        # If no full_explore_list is provided, write all file contents
         def is_explored_directory(current_path):
-            # Check by directory names and by absolute path matches
+            if not full_explore_list:  # If explore list is empty, include all
+                return True
             path_parts = os.path.abspath(current_path).split(os.sep)
             return any(dir_name in path_parts for dir_name in full_explore_list) or \
                    any(current_path.startswith(os.path.join(path, *path_set)) for path_set in full_explore_list)
 
-        # If it's a file and its directory is marked for exploration, write its content
+        # If it's a file and its directory is marked for exploration (or no list is provided), write its content
         if os.path.isfile(item_path):
             if output_file and is_explored_directory(item_path):
                 output_file.write("\n" + "-" * 40 + "\n")
@@ -114,6 +114,9 @@ def main():
     directory_path = os.getcwd()
 
     if write_mode:
+        if full_explore_list is None:  # If no --explore flag, write everything
+            full_explore_list = []  # Empty list means fully explore everything
+
         write_structure_and_contents(directory_path, ignore_list, output_filename, full_explore_list)
         print(f"\nDirectory structure and contents written to {output_filename}")
     else:
