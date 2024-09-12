@@ -1,7 +1,7 @@
 
-# Project Structure Explorer
+# Directure = Directory + Structure
 
-**Motivation**  
+## Motivation  
 I created this tool after struggling to explain project structures and errors to ChatGPT. It was difficult to clearly communicate my project's directory structure and file contents. With this tool, you can easily generate a visual representation of your project's directory structure, including file contents if desired, which can then be shared or used to debug with AI models like ChatGPT.
 
 ## Features
